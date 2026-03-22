@@ -1,0 +1,62 @@
+{
+  "folders": [
+    { "path": ".", "name": "CodePerfect Auditor (Root)" },
+    { "path": "backend", "name": "Backend (FastAPI)" },
+    { "path": "frontend", "name": "Frontend (React)" }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "./backend/venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.python"
+    }
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "FastAPI Backend",
+        "type": "python",
+        "request": "launch",
+        "module": "uvicorn",
+        "args": ["main:app", "--reload", "--host", "0.0.0.0", "--port", "8000"],
+        "cwd": "${workspaceFolder}/backend",
+        "envFile": "${workspaceFolder}/backend/.env",
+        "console": "integratedTerminal"
+      }
+    ]
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Start Backend",
+        "type": "shell",
+        "command": "cd backend && python main.py",
+        "group": "build",
+        "presentation": { "panel": "dedicated", "reveal": "always" }
+      },
+      {
+        "label": "Start Frontend",
+        "type": "shell",
+        "command": "cd frontend && npm run dev",
+        "group": "build",
+        "presentation": { "panel": "dedicated", "reveal": "always" }
+      },
+      {
+        "label": "Install Backend Deps",
+        "type": "shell",
+        "command": "cd backend && pip install -r requirements.txt",
+        "group": "build"
+      },
+      {
+        "label": "Install Frontend Deps",
+        "type": "shell",
+        "command": "cd frontend && npm install",
+        "group": "build"
+      }
+    ]
+  }
+}

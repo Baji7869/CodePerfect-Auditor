@@ -1,0 +1,3352 @@
+{
+  "icd10": {
+    "I10": {
+      "code": "I10",
+      "description": "Essential (primary) hypertension",
+      "type": "ICD10"
+    },
+    "I11.0": {
+      "code": "I11.0",
+      "description": "Hypertensive heart disease with heart failure",
+      "type": "ICD10"
+    },
+    "I11.9": {
+      "code": "I11.9",
+      "description": "Hypertensive heart disease without heart failure",
+      "type": "ICD10"
+    },
+    "I12.9": {
+      "code": "I12.9",
+      "description": "Hypertensive chronic kidney disease with stage 1-4 or unspecified CKD",
+      "type": "ICD10"
+    },
+    "I13.10": {
+      "code": "I13.10",
+      "description": "Hypertensive heart and chronic kidney disease without heart failure, with stage 1-4 CKD",
+      "type": "ICD10"
+    },
+    "I20.0": {
+      "code": "I20.0",
+      "description": "Unstable angina",
+      "type": "ICD10"
+    },
+    "I20.9": {
+      "code": "I20.9",
+      "description": "Angina pectoris, unspecified",
+      "type": "ICD10"
+    },
+    "I21.01": {
+      "code": "I21.01",
+      "description": "ST elevation myocardial infarction of left main coronary artery",
+      "type": "ICD10"
+    },
+    "I21.02": {
+      "code": "I21.02",
+      "description": "ST elevation myocardial infarction of left anterior descending coronary artery",
+      "type": "ICD10"
+    },
+    "I21.09": {
+      "code": "I21.09",
+      "description": "ST elevation myocardial infarction of other coronary artery of anterior wall",
+      "type": "ICD10"
+    },
+    "I21.11": {
+      "code": "I21.11",
+      "description": "ST elevation myocardial infarction of right coronary artery",
+      "type": "ICD10"
+    },
+    "I21.19": {
+      "code": "I21.19",
+      "description": "ST elevation myocardial infarction of other coronary artery of inferior wall",
+      "type": "ICD10"
+    },
+    "I21.21": {
+      "code": "I21.21",
+      "description": "ST elevation myocardial infarction involving left circumflex coronary artery",
+      "type": "ICD10"
+    },
+    "I21.29": {
+      "code": "I21.29",
+      "description": "ST elevation myocardial infarction of other sites",
+      "type": "ICD10"
+    },
+    "I21.3": {
+      "code": "I21.3",
+      "description": "ST elevation myocardial infarction of unspecified site",
+      "type": "ICD10"
+    },
+    "I21.4": {
+      "code": "I21.4",
+      "description": "Non-ST elevation myocardial infarction",
+      "type": "ICD10"
+    },
+    "I21.9": {
+      "code": "I21.9",
+      "description": "Acute myocardial infarction, unspecified",
+      "type": "ICD10"
+    },
+    "I21.A1": {
+      "code": "I21.A1",
+      "description": "Myocardial infarction type 2",
+      "type": "ICD10"
+    },
+    "I22.0": {
+      "code": "I22.0",
+      "description": "Subsequent ST elevation myocardial infarction of anterior wall",
+      "type": "ICD10"
+    },
+    "I22.1": {
+      "code": "I22.1",
+      "description": "Subsequent ST elevation myocardial infarction of inferior wall",
+      "type": "ICD10"
+    },
+    "I22.9": {
+      "code": "I22.9",
+      "description": "Subsequent ST elevation myocardial infarction of unspecified site",
+      "type": "ICD10"
+    },
+    "I25.10": {
+      "code": "I25.10",
+      "description": "Atherosclerotic heart disease of native coronary artery without angina",
+      "type": "ICD10"
+    },
+    "I25.110": {
+      "code": "I25.110",
+      "description": "Atherosclerotic heart disease of native coronary artery with unstable angina",
+      "type": "ICD10"
+    },
+    "I25.2": {
+      "code": "I25.2",
+      "description": "Old myocardial infarction",
+      "type": "ICD10"
+    },
+    "I25.5": {
+      "code": "I25.5",
+      "description": "Ischemic cardiomyopathy",
+      "type": "ICD10"
+    },
+    "I26.09": {
+      "code": "I26.09",
+      "description": "Other pulmonary embolism without acute cor pulmonale",
+      "type": "ICD10"
+    },
+    "I26.99": {
+      "code": "I26.99",
+      "description": "Other pulmonary embolism with acute cor pulmonale",
+      "type": "ICD10"
+    },
+    "I27.20": {
+      "code": "I27.20",
+      "description": "Pulmonary hypertension, unspecified",
+      "type": "ICD10"
+    },
+    "I30.9": {
+      "code": "I30.9",
+      "description": "Acute pericarditis, unspecified",
+      "type": "ICD10"
+    },
+    "I31.3": {
+      "code": "I31.3",
+      "description": "Pericardial effusion (noninflammatory)",
+      "type": "ICD10"
+    },
+    "I33.0": {
+      "code": "I33.0",
+      "description": "Acute and subacute infective endocarditis",
+      "type": "ICD10"
+    },
+    "I34.0": {
+      "code": "I34.0",
+      "description": "Nonrheumatic mitral (valve) insufficiency",
+      "type": "ICD10"
+    },
+    "I35.0": {
+      "code": "I35.0",
+      "description": "Nonrheumatic aortic (valve) stenosis",
+      "type": "ICD10"
+    },
+    "I35.1": {
+      "code": "I35.1",
+      "description": "Nonrheumatic aortic (valve) insufficiency",
+      "type": "ICD10"
+    },
+    "I42.0": {
+      "code": "I42.0",
+      "description": "Dilated cardiomyopathy",
+      "type": "ICD10"
+    },
+    "I42.9": {
+      "code": "I42.9",
+      "description": "Cardiomyopathy, unspecified",
+      "type": "ICD10"
+    },
+    "I44.2": {
+      "code": "I44.2",
+      "description": "Atrioventricular block, complete",
+      "type": "ICD10"
+    },
+    "I45.10": {
+      "code": "I45.10",
+      "description": "Unspecified right bundle-branch block",
+      "type": "ICD10"
+    },
+    "I47.1": {
+      "code": "I47.1",
+      "description": "Supraventricular tachycardia",
+      "type": "ICD10"
+    },
+    "I47.2": {
+      "code": "I47.2",
+      "description": "Ventricular tachycardia",
+      "type": "ICD10"
+    },
+    "I48.0": {
+      "code": "I48.0",
+      "description": "Paroxysmal atrial fibrillation",
+      "type": "ICD10"
+    },
+    "I48.11": {
+      "code": "I48.11",
+      "description": "Longstanding persistent atrial fibrillation",
+      "type": "ICD10"
+    },
+    "I48.19": {
+      "code": "I48.19",
+      "description": "Other persistent atrial fibrillation",
+      "type": "ICD10"
+    },
+    "I48.20": {
+      "code": "I48.20",
+      "description": "Chronic atrial fibrillation, unspecified",
+      "type": "ICD10"
+    },
+    "I48.91": {
+      "code": "I48.91",
+      "description": "Unspecified atrial fibrillation",
+      "type": "ICD10"
+    },
+    "I49.01": {
+      "code": "I49.01",
+      "description": "Ventricular fibrillation",
+      "type": "ICD10"
+    },
+    "I50.1": {
+      "code": "I50.1",
+      "description": "Left ventricular failure, unspecified",
+      "type": "ICD10"
+    },
+    "I50.20": {
+      "code": "I50.20",
+      "description": "Unspecified systolic (congestive) heart failure",
+      "type": "ICD10"
+    },
+    "I50.21": {
+      "code": "I50.21",
+      "description": "Acute systolic (congestive) heart failure",
+      "type": "ICD10"
+    },
+    "I50.22": {
+      "code": "I50.22",
+      "description": "Chronic systolic (congestive) heart failure",
+      "type": "ICD10"
+    },
+    "I50.23": {
+      "code": "I50.23",
+      "description": "Acute on chronic systolic (congestive) heart failure",
+      "type": "ICD10"
+    },
+    "I50.30": {
+      "code": "I50.30",
+      "description": "Unspecified diastolic (congestive) heart failure",
+      "type": "ICD10"
+    },
+    "I50.31": {
+      "code": "I50.31",
+      "description": "Acute diastolic (congestive) heart failure",
+      "type": "ICD10"
+    },
+    "I50.32": {
+      "code": "I50.32",
+      "description": "Chronic diastolic (congestive) heart failure",
+      "type": "ICD10"
+    },
+    "I50.33": {
+      "code": "I50.33",
+      "description": "Acute on chronic diastolic (congestive) heart failure",
+      "type": "ICD10"
+    },
+    "I50.40": {
+      "code": "I50.40",
+      "description": "Unspecified combined systolic and diastolic heart failure",
+      "type": "ICD10"
+    },
+    "I50.9": {
+      "code": "I50.9",
+      "description": "Heart failure, unspecified",
+      "type": "ICD10"
+    },
+    "I60.9": {
+      "code": "I60.9",
+      "description": "Nontraumatic subarachnoid hemorrhage, unspecified",
+      "type": "ICD10"
+    },
+    "I61.9": {
+      "code": "I61.9",
+      "description": "Nontraumatic intracerebral hemorrhage, unspecified",
+      "type": "ICD10"
+    },
+    "I63.00": {
+      "code": "I63.00",
+      "description": "Cerebral infarction due to thrombosis of unspecified precerebral artery",
+      "type": "ICD10"
+    },
+    "I63.30": {
+      "code": "I63.30",
+      "description": "Cerebral infarction due to thrombosis of unspecified cerebral artery",
+      "type": "ICD10"
+    },
+    "I63.50": {
+      "code": "I63.50",
+      "description": "Cerebral infarction due to unspecified occlusion or stenosis of unspecified cerebral artery",
+      "type": "ICD10"
+    },
+    "I63.9": {
+      "code": "I63.9",
+      "description": "Cerebral infarction, unspecified",
+      "type": "ICD10"
+    },
+    "I65.2": {
+      "code": "I65.2",
+      "description": "Occlusion and stenosis of carotid artery",
+      "type": "ICD10"
+    },
+    "I69.30": {
+      "code": "I69.30",
+      "description": "Unspecified sequelae of cerebral infarction",
+      "type": "ICD10"
+    },
+    "I70.201": {
+      "code": "I70.201",
+      "description": "Unspecified atherosclerosis of native arteries of extremities, right leg",
+      "type": "ICD10"
+    },
+    "I73.9": {
+      "code": "I73.9",
+      "description": "Peripheral vascular disease, unspecified",
+      "type": "ICD10"
+    },
+    "I74.3": {
+      "code": "I74.3",
+      "description": "Embolism and thrombosis of arteries of lower extremities",
+      "type": "ICD10"
+    },
+    "I82.401": {
+      "code": "I82.401",
+      "description": "Acute embolism and thrombosis of unspecified deep veins of right lower extremity",
+      "type": "ICD10"
+    },
+    "I82.4H1": {
+      "code": "I82.4H1",
+      "description": "Acute embolism and thrombosis of right femoral vein",
+      "type": "ICD10"
+    },
+    "J06.9": {
+      "code": "J06.9",
+      "description": "Acute upper respiratory infection, unspecified",
+      "type": "ICD10"
+    },
+    "J12.89": {
+      "code": "J12.89",
+      "description": "Other viral pneumonia",
+      "type": "ICD10"
+    },
+    "J12.9": {
+      "code": "J12.9",
+      "description": "Viral pneumonia, unspecified",
+      "type": "ICD10"
+    },
+    "J13": {
+      "code": "J13",
+      "description": "Pneumonia due to Streptococcus pneumoniae",
+      "type": "ICD10"
+    },
+    "J14": {
+      "code": "J14",
+      "description": "Pneumonia due to Hemophilus influenzae",
+      "type": "ICD10"
+    },
+    "J15.0": {
+      "code": "J15.0",
+      "description": "Pneumonia due to Klebsiella pneumoniae",
+      "type": "ICD10"
+    },
+    "J15.1": {
+      "code": "J15.1",
+      "description": "Pneumonia due to Pseudomonas",
+      "type": "ICD10"
+    },
+    "J15.20": {
+      "code": "J15.20",
+      "description": "Pneumonia due to staphylococcus, unspecified",
+      "type": "ICD10"
+    },
+    "J15.211": {
+      "code": "J15.211",
+      "description": "Pneumonia due to Methicillin susceptible Staphylococcus aureus",
+      "type": "ICD10"
+    },
+    "J15.212": {
+      "code": "J15.212",
+      "description": "Pneumonia due to Methicillin resistant Staphylococcus aureus",
+      "type": "ICD10"
+    },
+    "J15.4": {
+      "code": "J15.4",
+      "description": "Pneumonia due to other streptococci",
+      "type": "ICD10"
+    },
+    "J15.7": {
+      "code": "J15.7",
+      "description": "Pneumonia due to Mycoplasma pneumoniae",
+      "type": "ICD10"
+    },
+    "J15.9": {
+      "code": "J15.9",
+      "description": "Unspecified bacterial pneumonia",
+      "type": "ICD10"
+    },
+    "J18.0": {
+      "code": "J18.0",
+      "description": "Bronchopneumonia, unspecified organism",
+      "type": "ICD10"
+    },
+    "J18.1": {
+      "code": "J18.1",
+      "description": "Lobar pneumonia, unspecified organism",
+      "type": "ICD10"
+    },
+    "J18.9": {
+      "code": "J18.9",
+      "description": "Pneumonia, unspecified organism",
+      "type": "ICD10"
+    },
+    "J20.9": {
+      "code": "J20.9",
+      "description": "Acute bronchitis, unspecified",
+      "type": "ICD10"
+    },
+    "J40": {
+      "code": "J40",
+      "description": "Bronchitis, not specified as acute or chronic",
+      "type": "ICD10"
+    },
+    "J41.0": {
+      "code": "J41.0",
+      "description": "Simple chronic bronchitis",
+      "type": "ICD10"
+    },
+    "J43.9": {
+      "code": "J43.9",
+      "description": "Emphysema, unspecified",
+      "type": "ICD10"
+    },
+    "J44.0": {
+      "code": "J44.0",
+      "description": "Chronic obstructive pulmonary disease with acute lower respiratory infection",
+      "type": "ICD10"
+    },
+    "J44.1": {
+      "code": "J44.1",
+      "description": "Chronic obstructive pulmonary disease with (acute) exacerbation",
+      "type": "ICD10"
+    },
+    "J44.9": {
+      "code": "J44.9",
+      "description": "Chronic obstructive pulmonary disease, unspecified",
+      "type": "ICD10"
+    },
+    "J45.20": {
+      "code": "J45.20",
+      "description": "Mild intermittent asthma, uncomplicated",
+      "type": "ICD10"
+    },
+    "J45.30": {
+      "code": "J45.30",
+      "description": "Mild persistent asthma, uncomplicated",
+      "type": "ICD10"
+    },
+    "J45.40": {
+      "code": "J45.40",
+      "description": "Moderate persistent asthma, uncomplicated",
+      "type": "ICD10"
+    },
+    "J45.41": {
+      "code": "J45.41",
+      "description": "Moderate persistent asthma with (acute) exacerbation",
+      "type": "ICD10"
+    },
+    "J45.50": {
+      "code": "J45.50",
+      "description": "Severe persistent asthma, uncomplicated",
+      "type": "ICD10"
+    },
+    "J45.51": {
+      "code": "J45.51",
+      "description": "Severe persistent asthma with (acute) exacerbation",
+      "type": "ICD10"
+    },
+    "J45.901": {
+      "code": "J45.901",
+      "description": "Unspecified asthma with (acute) exacerbation",
+      "type": "ICD10"
+    },
+    "J45.909": {
+      "code": "J45.909",
+      "description": "Unspecified asthma, uncomplicated",
+      "type": "ICD10"
+    },
+    "J47.0": {
+      "code": "J47.0",
+      "description": "Bronchiectasis with acute lower respiratory infection",
+      "type": "ICD10"
+    },
+    "J47.1": {
+      "code": "J47.1",
+      "description": "Bronchiectasis with (acute) exacerbation",
+      "type": "ICD10"
+    },
+    "J68.0": {
+      "code": "J68.0",
+      "description": "Chemical pneumonitis due to solids and liquids",
+      "type": "ICD10"
+    },
+    "J69.0": {
+      "code": "J69.0",
+      "description": "Pneumonitis due to inhalation of food and vomit",
+      "type": "ICD10"
+    },
+    "J80": {
+      "code": "J80",
+      "description": "Acute respiratory distress syndrome",
+      "type": "ICD10"
+    },
+    "J81.0": {
+      "code": "J81.0",
+      "description": "Acute pulmonary edema",
+      "type": "ICD10"
+    },
+    "J81.1": {
+      "code": "J81.1",
+      "description": "Chronic pulmonary edema",
+      "type": "ICD10"
+    },
+    "J84.10": {
+      "code": "J84.10",
+      "description": "Pulmonary fibrosis, unspecified",
+      "type": "ICD10"
+    },
+    "J90": {
+      "code": "J90",
+      "description": "Pleural effusion, not elsewhere classified",
+      "type": "ICD10"
+    },
+    "J93.11": {
+      "code": "J93.11",
+      "description": "Primary spontaneous pneumothorax",
+      "type": "ICD10"
+    },
+    "J96.00": {
+      "code": "J96.00",
+      "description": "Acute respiratory failure, unspecified whether with hypoxia or hypercapnia",
+      "type": "ICD10"
+    },
+    "J96.01": {
+      "code": "J96.01",
+      "description": "Acute respiratory failure with hypoxia",
+      "type": "ICD10"
+    },
+    "J96.02": {
+      "code": "J96.02",
+      "description": "Acute respiratory failure with hypercapnia",
+      "type": "ICD10"
+    },
+    "J96.10": {
+      "code": "J96.10",
+      "description": "Chronic respiratory failure, unspecified whether with hypoxia or hypercapnia",
+      "type": "ICD10"
+    },
+    "J96.20": {
+      "code": "J96.20",
+      "description": "Acute and chronic respiratory failure, unspecified",
+      "type": "ICD10"
+    },
+    "J96.90": {
+      "code": "J96.90",
+      "description": "Respiratory failure, unspecified",
+      "type": "ICD10"
+    },
+    "J98.11": {
+      "code": "J98.11",
+      "description": "Atelectasis",
+      "type": "ICD10"
+    },
+    "E03.9": {
+      "code": "E03.9",
+      "description": "Hypothyroidism, unspecified",
+      "type": "ICD10"
+    },
+    "E04.1": {
+      "code": "E04.1",
+      "description": "Nontoxic single thyroid nodule",
+      "type": "ICD10"
+    },
+    "E05.00": {
+      "code": "E05.00",
+      "description": "Thyrotoxicosis with diffuse goiter without thyrotoxic crisis",
+      "type": "ICD10"
+    },
+    "E10.10": {
+      "code": "E10.10",
+      "description": "Type 1 diabetes mellitus with ketoacidosis without coma",
+      "type": "ICD10"
+    },
+    "E10.65": {
+      "code": "E10.65",
+      "description": "Type 1 diabetes mellitus with hyperglycemia",
+      "type": "ICD10"
+    },
+    "E10.9": {
+      "code": "E10.9",
+      "description": "Type 1 diabetes mellitus without complications",
+      "type": "ICD10"
+    },
+    "E11.00": {
+      "code": "E11.00",
+      "description": "Type 2 diabetes mellitus with hyperosmolarity without nonketotic hyperglycemic-hyperosmolar coma",
+      "type": "ICD10"
+    },
+    "E11.10": {
+      "code": "E11.10",
+      "description": "Type 2 diabetes mellitus with ketoacidosis without coma",
+      "type": "ICD10"
+    },
+    "E11.21": {
+      "code": "E11.21",
+      "description": "Type 2 diabetes mellitus with diabetic nephropathy",
+      "type": "ICD10"
+    },
+    "E11.22": {
+      "code": "E11.22",
+      "description": "Type 2 diabetes mellitus with diabetic chronic kidney disease, stage 1-2",
+      "type": "ICD10"
+    },
+    "E11.29": {
+      "code": "E11.29",
+      "description": "Type 2 diabetes mellitus with other diabetic kidney complication",
+      "type": "ICD10"
+    },
+    "E11.36": {
+      "code": "E11.36",
+      "description": "Type 2 diabetes mellitus with diabetic cataract",
+      "type": "ICD10"
+    },
+    "E11.40": {
+      "code": "E11.40",
+      "description": "Type 2 diabetes mellitus with diabetic neuropathy, unspecified",
+      "type": "ICD10"
+    },
+    "E11.51": {
+      "code": "E11.51",
+      "description": "Type 2 diabetes mellitus with diabetic peripheral angiopathy without gangrene",
+      "type": "ICD10"
+    },
+    "E11.59": {
+      "code": "E11.59",
+      "description": "Type 2 diabetes mellitus with other circulatory complications",
+      "type": "ICD10"
+    },
+    "E11.610": {
+      "code": "E11.610",
+      "description": "Type 2 diabetes mellitus with diabetic neuropathic arthropathy",
+      "type": "ICD10"
+    },
+    "E11.618": {
+      "code": "E11.618",
+      "description": "Type 2 diabetes mellitus with other diabetic arthropathy",
+      "type": "ICD10"
+    },
+    "E11.621": {
+      "code": "E11.621",
+      "description": "Type 2 diabetes mellitus with foot ulcer",
+      "type": "ICD10"
+    },
+    "E11.649": {
+      "code": "E11.649",
+      "description": "Type 2 diabetes mellitus with hypoglycemia without coma",
+      "type": "ICD10"
+    },
+    "E11.65": {
+      "code": "E11.65",
+      "description": "Type 2 diabetes mellitus with hyperglycemia",
+      "type": "ICD10"
+    },
+    "E11.69": {
+      "code": "E11.69",
+      "description": "Type 2 diabetes mellitus with other specified complication",
+      "type": "ICD10"
+    },
+    "E11.8": {
+      "code": "E11.8",
+      "description": "Type 2 diabetes mellitus with unspecified complications",
+      "type": "ICD10"
+    },
+    "E11.9": {
+      "code": "E11.9",
+      "description": "Type 2 diabetes mellitus without complications",
+      "type": "ICD10"
+    },
+    "E13.9": {
+      "code": "E13.9",
+      "description": "Other specified diabetes mellitus without complications",
+      "type": "ICD10"
+    },
+    "E27.49": {
+      "code": "E27.49",
+      "description": "Other adrenocortical insufficiency",
+      "type": "ICD10"
+    },
+    "E55.9": {
+      "code": "E55.9",
+      "description": "Vitamin D deficiency, unspecified",
+      "type": "ICD10"
+    },
+    "E66.01": {
+      "code": "E66.01",
+      "description": "Morbid (severe) obesity due to excess calories",
+      "type": "ICD10"
+    },
+    "E66.09": {
+      "code": "E66.09",
+      "description": "Other obesity due to excess calories",
+      "type": "ICD10"
+    },
+    "E66.1": {
+      "code": "E66.1",
+      "description": "Drug-induced obesity",
+      "type": "ICD10"
+    },
+    "E66.3": {
+      "code": "E66.3",
+      "description": "Overweight",
+      "type": "ICD10"
+    },
+    "E66.9": {
+      "code": "E66.9",
+      "description": "Obesity, unspecified",
+      "type": "ICD10"
+    },
+    "E78.00": {
+      "code": "E78.00",
+      "description": "Pure hypercholesterolemia, unspecified",
+      "type": "ICD10"
+    },
+    "E78.01": {
+      "code": "E78.01",
+      "description": "Familial hypercholesterolemia",
+      "type": "ICD10"
+    },
+    "E78.1": {
+      "code": "E78.1",
+      "description": "Pure hyperglyceridemia",
+      "type": "ICD10"
+    },
+    "E78.2": {
+      "code": "E78.2",
+      "description": "Mixed hyperlipidemia",
+      "type": "ICD10"
+    },
+    "E78.4": {
+      "code": "E78.4",
+      "description": "Other hyperlipidemia",
+      "type": "ICD10"
+    },
+    "E78.5": {
+      "code": "E78.5",
+      "description": "Hyperlipidemia, unspecified",
+      "type": "ICD10"
+    },
+    "E78.6": {
+      "code": "E78.6",
+      "description": "Lipoprotein deficiency",
+      "type": "ICD10"
+    },
+    "E83.51": {
+      "code": "E83.51",
+      "description": "Hypocalcemia",
+      "type": "ICD10"
+    },
+    "E84.0": {
+      "code": "E84.0",
+      "description": "Cystic fibrosis with pulmonary manifestations",
+      "type": "ICD10"
+    },
+    "E86.0": {
+      "code": "E86.0",
+      "description": "Dehydration",
+      "type": "ICD10"
+    },
+    "E86.1": {
+      "code": "E86.1",
+      "description": "Hypovolemia",
+      "type": "ICD10"
+    },
+    "E87.0": {
+      "code": "E87.0",
+      "description": "Hyperosmolality and hypernatremia",
+      "type": "ICD10"
+    },
+    "E87.1": {
+      "code": "E87.1",
+      "description": "Hypo-osmolality and hyponatremia",
+      "type": "ICD10"
+    },
+    "E87.2": {
+      "code": "E87.2",
+      "description": "Acidosis",
+      "type": "ICD10"
+    },
+    "E87.3": {
+      "code": "E87.3",
+      "description": "Alkalosis",
+      "type": "ICD10"
+    },
+    "E87.5": {
+      "code": "E87.5",
+      "description": "Hyperkalemia",
+      "type": "ICD10"
+    },
+    "E87.6": {
+      "code": "E87.6",
+      "description": "Hypokalemia",
+      "type": "ICD10"
+    },
+    "E87.70": {
+      "code": "E87.70",
+      "description": "Fluid overload, unspecified",
+      "type": "ICD10"
+    },
+    "E88.01": {
+      "code": "E88.01",
+      "description": "Alpha-1-antitrypsin deficiency",
+      "type": "ICD10"
+    },
+    "N00.9": {
+      "code": "N00.9",
+      "description": "Acute nephritic syndrome with unspecified morphologic changes",
+      "type": "ICD10"
+    },
+    "N17.0": {
+      "code": "N17.0",
+      "description": "Acute kidney failure with tubular necrosis",
+      "type": "ICD10"
+    },
+    "N17.9": {
+      "code": "N17.9",
+      "description": "Acute kidney failure, unspecified",
+      "type": "ICD10"
+    },
+    "N18.1": {
+      "code": "N18.1",
+      "description": "Chronic kidney disease, stage 1",
+      "type": "ICD10"
+    },
+    "N18.2": {
+      "code": "N18.2",
+      "description": "Chronic kidney disease, stage 2 (mild)",
+      "type": "ICD10"
+    },
+    "N18.3": {
+      "code": "N18.3",
+      "description": "Chronic kidney disease, stage 3 (moderate)",
+      "type": "ICD10"
+    },
+    "N18.30": {
+      "code": "N18.30",
+      "description": "Chronic kidney disease, stage 3 unspecified",
+      "type": "ICD10"
+    },
+    "N18.31": {
+      "code": "N18.31",
+      "description": "Chronic kidney disease, stage 3a",
+      "type": "ICD10"
+    },
+    "N18.32": {
+      "code": "N18.32",
+      "description": "Chronic kidney disease, stage 3b",
+      "type": "ICD10"
+    },
+    "N18.4": {
+      "code": "N18.4",
+      "description": "Chronic kidney disease, stage 4 (severe)",
+      "type": "ICD10"
+    },
+    "N18.5": {
+      "code": "N18.5",
+      "description": "Chronic kidney disease, stage 5",
+      "type": "ICD10"
+    },
+    "N18.6": {
+      "code": "N18.6",
+      "description": "End stage renal disease",
+      "type": "ICD10"
+    },
+    "N18.9": {
+      "code": "N18.9",
+      "description": "Chronic kidney disease, unspecified",
+      "type": "ICD10"
+    },
+    "N19": {
+      "code": "N19",
+      "description": "Unspecified kidney failure",
+      "type": "ICD10"
+    },
+    "N20.0": {
+      "code": "N20.0",
+      "description": "Calculus of kidney",
+      "type": "ICD10"
+    },
+    "N20.9": {
+      "code": "N20.9",
+      "description": "Urinary calculus, unspecified",
+      "type": "ICD10"
+    },
+    "N39.0": {
+      "code": "N39.0",
+      "description": "Urinary tract infection, site not specified",
+      "type": "ICD10"
+    },
+    "N40.0": {
+      "code": "N40.0",
+      "description": "Benign prostatic hyperplasia without lower urinary tract symptoms",
+      "type": "ICD10"
+    },
+    "N40.1": {
+      "code": "N40.1",
+      "description": "Benign prostatic hyperplasia with lower urinary tract symptoms",
+      "type": "ICD10"
+    },
+    "K21.0": {
+      "code": "K21.0",
+      "description": "Gastro-esophageal reflux disease with esophagitis",
+      "type": "ICD10"
+    },
+    "K21.9": {
+      "code": "K21.9",
+      "description": "Gastro-esophageal reflux disease without esophagitis",
+      "type": "ICD10"
+    },
+    "K25.0": {
+      "code": "K25.0",
+      "description": "Gastric ulcer, acute with hemorrhage",
+      "type": "ICD10"
+    },
+    "K25.9": {
+      "code": "K25.9",
+      "description": "Gastric ulcer, unspecified as acute or chronic, without hemorrhage",
+      "type": "ICD10"
+    },
+    "K26.0": {
+      "code": "K26.0",
+      "description": "Duodenal ulcer, acute with hemorrhage",
+      "type": "ICD10"
+    },
+    "K27.9": {
+      "code": "K27.9",
+      "description": "Peptic ulcer, unspecified, without hemorrhage or perforation",
+      "type": "ICD10"
+    },
+    "K29.70": {
+      "code": "K29.70",
+      "description": "Gastritis, unspecified, without bleeding",
+      "type": "ICD10"
+    },
+    "K35.20": {
+      "code": "K35.20",
+      "description": "Acute appendicitis with perforation, abscess or peritonitis",
+      "type": "ICD10"
+    },
+    "K40.90": {
+      "code": "K40.90",
+      "description": "Unilateral inguinal hernia, without obstruction or gangrene, not recurrent",
+      "type": "ICD10"
+    },
+    "K50.10": {
+      "code": "K50.10",
+      "description": "Crohn's disease of large intestine without complications",
+      "type": "ICD10"
+    },
+    "K50.90": {
+      "code": "K50.90",
+      "description": "Crohn's disease, unspecified, without complications",
+      "type": "ICD10"
+    },
+    "K51.00": {
+      "code": "K51.00",
+      "description": "Ulcerative (chronic) pancolitis without complications",
+      "type": "ICD10"
+    },
+    "K51.90": {
+      "code": "K51.90",
+      "description": "Ulcerative colitis, unspecified, without complications",
+      "type": "ICD10"
+    },
+    "K56.60": {
+      "code": "K56.60",
+      "description": "Unspecified intestinal obstruction, unspecified as to partial versus complete obstruction",
+      "type": "ICD10"
+    },
+    "K57.30": {
+      "code": "K57.30",
+      "description": "Diverticulosis of large intestine without perforation or abscess without bleeding",
+      "type": "ICD10"
+    },
+    "K57.32": {
+      "code": "K57.32",
+      "description": "Diverticulitis of large intestine without perforation or abscess without bleeding",
+      "type": "ICD10"
+    },
+    "K59.00": {
+      "code": "K59.00",
+      "description": "Constipation, unspecified",
+      "type": "ICD10"
+    },
+    "K70.10": {
+      "code": "K70.10",
+      "description": "Alcoholic hepatitis without ascites",
+      "type": "ICD10"
+    },
+    "K70.30": {
+      "code": "K70.30",
+      "description": "Alcoholic cirrhosis of liver without ascites",
+      "type": "ICD10"
+    },
+    "K72.00": {
+      "code": "K72.00",
+      "description": "Acute and subacute hepatic failure without coma",
+      "type": "ICD10"
+    },
+    "K72.10": {
+      "code": "K72.10",
+      "description": "Chronic hepatic failure without coma",
+      "type": "ICD10"
+    },
+    "K73.9": {
+      "code": "K73.9",
+      "description": "Chronic hepatitis, unspecified",
+      "type": "ICD10"
+    },
+    "K74.60": {
+      "code": "K74.60",
+      "description": "Unspecified cirrhosis of liver",
+      "type": "ICD10"
+    },
+    "K76.0": {
+      "code": "K76.0",
+      "description": "Fatty (change of) liver, not elsewhere classified",
+      "type": "ICD10"
+    },
+    "K80.10": {
+      "code": "K80.10",
+      "description": "Calculus of gallbladder with chronic cholecystitis without obstruction",
+      "type": "ICD10"
+    },
+    "K80.20": {
+      "code": "K80.20",
+      "description": "Calculus of gallbladder without cholecystitis without obstruction",
+      "type": "ICD10"
+    },
+    "K80.50": {
+      "code": "K80.50",
+      "description": "Calculus of bile duct without cholangitis or cholecystitis without obstruction",
+      "type": "ICD10"
+    },
+    "K85.10": {
+      "code": "K85.10",
+      "description": "Biliary acute pancreatitis without necrosis or infection",
+      "type": "ICD10"
+    },
+    "K85.90": {
+      "code": "K85.90",
+      "description": "Acute pancreatitis without necrosis or infection, unspecified",
+      "type": "ICD10"
+    },
+    "K86.1": {
+      "code": "K86.1",
+      "description": "Other chronic pancreatitis",
+      "type": "ICD10"
+    },
+    "K92.1": {
+      "code": "K92.1",
+      "description": "Melena",
+      "type": "ICD10"
+    },
+    "K92.2": {
+      "code": "K92.2",
+      "description": "Gastrointestinal hemorrhage, unspecified",
+      "type": "ICD10"
+    },
+    "G20": {
+      "code": "G20",
+      "description": "Parkinson's disease",
+      "type": "ICD10"
+    },
+    "G30.1": {
+      "code": "G30.1",
+      "description": "Alzheimer's disease with late onset",
+      "type": "ICD10"
+    },
+    "G30.9": {
+      "code": "G30.9",
+      "description": "Alzheimer's disease, unspecified",
+      "type": "ICD10"
+    },
+    "G35": {
+      "code": "G35",
+      "description": "Multiple sclerosis",
+      "type": "ICD10"
+    },
+    "G40.009": {
+      "code": "G40.009",
+      "description": "Localization-related (focal) idiopathic epilepsy, not intractable, without status epilepticus",
+      "type": "ICD10"
+    },
+    "G40.309": {
+      "code": "G40.309",
+      "description": "Generalized idiopathic epilepsy, not intractable, without status epilepticus",
+      "type": "ICD10"
+    },
+    "G40.909": {
+      "code": "G40.909",
+      "description": "Epilepsy, unspecified, not intractable, without status epilepticus",
+      "type": "ICD10"
+    },
+    "G43.009": {
+      "code": "G43.009",
+      "description": "Migraine without aura, not intractable, without status migrainosus",
+      "type": "ICD10"
+    },
+    "G43.109": {
+      "code": "G43.109",
+      "description": "Migraine with aura, not intractable, without status migrainosus",
+      "type": "ICD10"
+    },
+    "G43.909": {
+      "code": "G43.909",
+      "description": "Migraine, unspecified, not intractable, without status migrainosus",
+      "type": "ICD10"
+    },
+    "G45.9": {
+      "code": "G45.9",
+      "description": "Transient cerebral ischemic attack, unspecified",
+      "type": "ICD10"
+    },
+    "G47.00": {
+      "code": "G47.00",
+      "description": "Insomnia, unspecified",
+      "type": "ICD10"
+    },
+    "G47.33": {
+      "code": "G47.33",
+      "description": "Obstructive sleep apnea (adult) (pediatric)",
+      "type": "ICD10"
+    },
+    "G61.0": {
+      "code": "G61.0",
+      "description": "Guillain-Barre syndrome",
+      "type": "ICD10"
+    },
+    "G62.9": {
+      "code": "G62.9",
+      "description": "Polyneuropathy, unspecified",
+      "type": "ICD10"
+    },
+    "G89.29": {
+      "code": "G89.29",
+      "description": "Other chronic pain",
+      "type": "ICD10"
+    },
+    "G89.4": {
+      "code": "G89.4",
+      "description": "Chronic pain syndrome",
+      "type": "ICD10"
+    },
+    "F06.30": {
+      "code": "F06.30",
+      "description": "Mood disorder due to known physiological condition, unspecified",
+      "type": "ICD10"
+    },
+    "F10.10": {
+      "code": "F10.10",
+      "description": "Alcohol abuse, uncomplicated",
+      "type": "ICD10"
+    },
+    "F10.20": {
+      "code": "F10.20",
+      "description": "Alcohol dependence, uncomplicated",
+      "type": "ICD10"
+    },
+    "F10.239": {
+      "code": "F10.239",
+      "description": "Alcohol dependence with withdrawal, unspecified",
+      "type": "ICD10"
+    },
+    "F11.20": {
+      "code": "F11.20",
+      "description": "Opioid dependence, uncomplicated",
+      "type": "ICD10"
+    },
+    "F17.210": {
+      "code": "F17.210",
+      "description": "Nicotine dependence, cigarettes, uncomplicated",
+      "type": "ICD10"
+    },
+    "F19.10": {
+      "code": "F19.10",
+      "description": "Other psychoactive substance abuse, uncomplicated",
+      "type": "ICD10"
+    },
+    "F20.9": {
+      "code": "F20.9",
+      "description": "Schizophrenia, unspecified",
+      "type": "ICD10"
+    },
+    "F25.9": {
+      "code": "F25.9",
+      "description": "Schizoaffective disorder, unspecified",
+      "type": "ICD10"
+    },
+    "F31.9": {
+      "code": "F31.9",
+      "description": "Bipolar disorder, unspecified",
+      "type": "ICD10"
+    },
+    "F32.0": {
+      "code": "F32.0",
+      "description": "Major depressive disorder, single episode, mild",
+      "type": "ICD10"
+    },
+    "F32.1": {
+      "code": "F32.1",
+      "description": "Major depressive disorder, single episode, moderate",
+      "type": "ICD10"
+    },
+    "F32.2": {
+      "code": "F32.2",
+      "description": "Major depressive disorder, single episode, severe without psychotic features",
+      "type": "ICD10"
+    },
+    "F32.9": {
+      "code": "F32.9",
+      "description": "Major depressive disorder, single episode, unspecified",
+      "type": "ICD10"
+    },
+    "F33.0": {
+      "code": "F33.0",
+      "description": "Major depressive disorder, recurrent, mild",
+      "type": "ICD10"
+    },
+    "F33.1": {
+      "code": "F33.1",
+      "description": "Major depressive disorder, recurrent, moderate",
+      "type": "ICD10"
+    },
+    "F33.9": {
+      "code": "F33.9",
+      "description": "Major depressive disorder, recurrent, unspecified",
+      "type": "ICD10"
+    },
+    "F40.10": {
+      "code": "F40.10",
+      "description": "Social phobia, unspecified",
+      "type": "ICD10"
+    },
+    "F41.0": {
+      "code": "F41.0",
+      "description": "Panic disorder without agoraphobia",
+      "type": "ICD10"
+    },
+    "F41.1": {
+      "code": "F41.1",
+      "description": "Generalized anxiety disorder",
+      "type": "ICD10"
+    },
+    "F41.9": {
+      "code": "F41.9",
+      "description": "Anxiety disorder, unspecified",
+      "type": "ICD10"
+    },
+    "F43.10": {
+      "code": "F43.10",
+      "description": "Post-traumatic stress disorder, unspecified",
+      "type": "ICD10"
+    },
+    "F43.12": {
+      "code": "F43.12",
+      "description": "Post-traumatic stress disorder, chronic",
+      "type": "ICD10"
+    },
+    "F43.23": {
+      "code": "F43.23",
+      "description": "Adjustment disorder with mixed anxiety and depressed mood",
+      "type": "ICD10"
+    },
+    "F50.01": {
+      "code": "F50.01",
+      "description": "Anorexia nervosa, restricting type",
+      "type": "ICD10"
+    },
+    "F50.2": {
+      "code": "F50.2",
+      "description": "Bulimia nervosa",
+      "type": "ICD10"
+    },
+    "F60.3": {
+      "code": "F60.3",
+      "description": "Borderline personality disorder",
+      "type": "ICD10"
+    },
+    "F84.0": {
+      "code": "F84.0",
+      "description": "Autistic disorder",
+      "type": "ICD10"
+    },
+    "F90.0": {
+      "code": "F90.0",
+      "description": "Attention-deficit hyperactivity disorder, predominantly inattentive type",
+      "type": "ICD10"
+    },
+    "F90.1": {
+      "code": "F90.1",
+      "description": "Attention-deficit hyperactivity disorder, predominantly hyperactive type",
+      "type": "ICD10"
+    },
+    "F90.9": {
+      "code": "F90.9",
+      "description": "Attention-deficit hyperactivity disorder, unspecified type",
+      "type": "ICD10"
+    },
+    "A02.0": {
+      "code": "A02.0",
+      "description": "Salmonella enteritis",
+      "type": "ICD10"
+    },
+    "A04.72": {
+      "code": "A04.72",
+      "description": "Enterocolitis due to Clostridium difficile, not specified as recurrent",
+      "type": "ICD10"
+    },
+    "A09": {
+      "code": "A09",
+      "description": "Other and unspecified gastroenteritis and colitis of infectious origin",
+      "type": "ICD10"
+    },
+    "A40.0": {
+      "code": "A40.0",
+      "description": "Sepsis due to streptococcus, group A",
+      "type": "ICD10"
+    },
+    "A41.01": {
+      "code": "A41.01",
+      "description": "Sepsis due to Methicillin susceptible Staphylococcus aureus",
+      "type": "ICD10"
+    },
+    "A41.02": {
+      "code": "A41.02",
+      "description": "Sepsis due to Methicillin resistant Staphylococcus aureus",
+      "type": "ICD10"
+    },
+    "A41.1": {
+      "code": "A41.1",
+      "description": "Sepsis due to other specified staphylococcus",
+      "type": "ICD10"
+    },
+    "A41.2": {
+      "code": "A41.2",
+      "description": "Sepsis due to unspecified staphylococcus",
+      "type": "ICD10"
+    },
+    "A41.3": {
+      "code": "A41.3",
+      "description": "Sepsis due to Hemophilus influenzae",
+      "type": "ICD10"
+    },
+    "A41.50": {
+      "code": "A41.50",
+      "description": "Gram-negative sepsis, unspecified",
+      "type": "ICD10"
+    },
+    "A41.51": {
+      "code": "A41.51",
+      "description": "Sepsis due to Escherichia coli",
+      "type": "ICD10"
+    },
+    "A41.52": {
+      "code": "A41.52",
+      "description": "Sepsis due to Pseudomonas",
+      "type": "ICD10"
+    },
+    "A41.53": {
+      "code": "A41.53",
+      "description": "Sepsis due to Serratia",
+      "type": "ICD10"
+    },
+    "A41.59": {
+      "code": "A41.59",
+      "description": "Other Gram-negative sepsis",
+      "type": "ICD10"
+    },
+    "A41.81": {
+      "code": "A41.81",
+      "description": "Sepsis due to Enterococcus",
+      "type": "ICD10"
+    },
+    "A41.89": {
+      "code": "A41.89",
+      "description": "Other specified sepsis",
+      "type": "ICD10"
+    },
+    "A41.9": {
+      "code": "A41.9",
+      "description": "Sepsis, unspecified organism",
+      "type": "ICD10"
+    },
+    "A49.01": {
+      "code": "A49.01",
+      "description": "Methicillin susceptible Staphylococcus aureus infection, unspecified site",
+      "type": "ICD10"
+    },
+    "A49.02": {
+      "code": "A49.02",
+      "description": "Methicillin resistant Staphylococcus aureus infection, unspecified site",
+      "type": "ICD10"
+    },
+    "B20": {
+      "code": "B20",
+      "description": "Human immunodeficiency virus [HIV] disease",
+      "type": "ICD10"
+    },
+    "B34.9": {
+      "code": "B34.9",
+      "description": "Viral infection, unspecified",
+      "type": "ICD10"
+    },
+    "B37.0": {
+      "code": "B37.0",
+      "description": "Candidal stomatitis",
+      "type": "ICD10"
+    },
+    "B37.3": {
+      "code": "B37.3",
+      "description": "Candidiasis of vulva and vagina",
+      "type": "ICD10"
+    },
+    "B96.20": {
+      "code": "B96.20",
+      "description": "Unspecified Escherichia coli as the cause of diseases classified elsewhere",
+      "type": "ICD10"
+    },
+    "M06.9": {
+      "code": "M06.9",
+      "description": "Rheumatoid arthritis, unspecified",
+      "type": "ICD10"
+    },
+    "M10.00": {
+      "code": "M10.00",
+      "description": "Idiopathic gout, unspecified site",
+      "type": "ICD10"
+    },
+    "M16.9": {
+      "code": "M16.9",
+      "description": "Osteoarthritis of hip, unspecified",
+      "type": "ICD10"
+    },
+    "M17.11": {
+      "code": "M17.11",
+      "description": "Primary osteoarthritis, right knee",
+      "type": "ICD10"
+    },
+    "M17.12": {
+      "code": "M17.12",
+      "description": "Primary osteoarthritis, left knee",
+      "type": "ICD10"
+    },
+    "M17.9": {
+      "code": "M17.9",
+      "description": "Osteoarthritis of knee, unspecified",
+      "type": "ICD10"
+    },
+    "M19.90": {
+      "code": "M19.90",
+      "description": "Primary osteoarthritis, unspecified site",
+      "type": "ICD10"
+    },
+    "M32.9": {
+      "code": "M32.9",
+      "description": "Systemic lupus erythematosus, unspecified",
+      "type": "ICD10"
+    },
+    "M41.9": {
+      "code": "M41.9",
+      "description": "Scoliosis, unspecified",
+      "type": "ICD10"
+    },
+    "M47.816": {
+      "code": "M47.816",
+      "description": "Spondylosis without myelopathy or radiculopathy, lumbar region",
+      "type": "ICD10"
+    },
+    "M48.06": {
+      "code": "M48.06",
+      "description": "Spinal stenosis, lumbar region",
+      "type": "ICD10"
+    },
+    "M51.16": {
+      "code": "M51.16",
+      "description": "Intervertebral disc degeneration, lumbar region",
+      "type": "ICD10"
+    },
+    "M54.5": {
+      "code": "M54.5",
+      "description": "Low back pain",
+      "type": "ICD10"
+    },
+    "M54.50": {
+      "code": "M54.50",
+      "description": "Low back pain, unspecified",
+      "type": "ICD10"
+    },
+    "M54.51": {
+      "code": "M54.51",
+      "description": "Vertebrogenic low back pain",
+      "type": "ICD10"
+    },
+    "M54.59": {
+      "code": "M54.59",
+      "description": "Other low back pain",
+      "type": "ICD10"
+    },
+    "M62.81": {
+      "code": "M62.81",
+      "description": "Muscle weakness (generalized)",
+      "type": "ICD10"
+    },
+    "M79.3": {
+      "code": "M79.3",
+      "description": "Panniculitis, unspecified",
+      "type": "ICD10"
+    },
+    "M80.00XA": {
+      "code": "M80.00XA",
+      "description": "Age-related osteoporosis with current pathological fracture, unspecified site",
+      "type": "ICD10"
+    },
+    "M81.0": {
+      "code": "M81.0",
+      "description": "Age-related osteoporosis without current pathological fracture",
+      "type": "ICD10"
+    },
+    "C18.9": {
+      "code": "C18.9",
+      "description": "Malignant neoplasm of colon, unspecified",
+      "type": "ICD10"
+    },
+    "C20": {
+      "code": "C20",
+      "description": "Malignant neoplasm of rectum",
+      "type": "ICD10"
+    },
+    "C25.9": {
+      "code": "C25.9",
+      "description": "Malignant neoplasm of pancreas, unspecified",
+      "type": "ICD10"
+    },
+    "C34.10": {
+      "code": "C34.10",
+      "description": "Malignant neoplasm of upper lobe, unspecified bronchus or lung",
+      "type": "ICD10"
+    },
+    "C34.90": {
+      "code": "C34.90",
+      "description": "Malignant neoplasm of unspecified part of unspecified bronchus and lung",
+      "type": "ICD10"
+    },
+    "C50.911": {
+      "code": "C50.911",
+      "description": "Malignant neoplasm of unspecified site of right female breast",
+      "type": "ICD10"
+    },
+    "C61": {
+      "code": "C61",
+      "description": "Malignant neoplasm of prostate",
+      "type": "ICD10"
+    },
+    "C67.9": {
+      "code": "C67.9",
+      "description": "Malignant neoplasm of bladder, unspecified",
+      "type": "ICD10"
+    },
+    "C71.9": {
+      "code": "C71.9",
+      "description": "Malignant neoplasm of brain, unspecified",
+      "type": "ICD10"
+    },
+    "C80.1": {
+      "code": "C80.1",
+      "description": "Malignant (primary) neoplasm, unspecified",
+      "type": "ICD10"
+    },
+    "C90.00": {
+      "code": "C90.00",
+      "description": "Multiple myeloma not having achieved remission",
+      "type": "ICD10"
+    },
+    "C91.00": {
+      "code": "C91.00",
+      "description": "Acute lymphoblastic leukemia not having achieved remission",
+      "type": "ICD10"
+    },
+    "C92.00": {
+      "code": "C92.00",
+      "description": "Acute myeloblastic leukemia, not having achieved remission",
+      "type": "ICD10"
+    },
+    "D05.10": {
+      "code": "D05.10",
+      "description": "Intraductal carcinoma in situ of unspecified breast",
+      "type": "ICD10"
+    },
+    "D50.0": {
+      "code": "D50.0",
+      "description": "Iron deficiency anemia secondary to blood loss (chronic)",
+      "type": "ICD10"
+    },
+    "D50.9": {
+      "code": "D50.9",
+      "description": "Iron deficiency anemia, unspecified",
+      "type": "ICD10"
+    },
+    "D51.0": {
+      "code": "D51.0",
+      "description": "Vitamin B12 deficiency anemia due to intrinsic factor deficiency",
+      "type": "ICD10"
+    },
+    "D51.9": {
+      "code": "D51.9",
+      "description": "Vitamin B12 deficiency anemia, unspecified",
+      "type": "ICD10"
+    },
+    "D52.9": {
+      "code": "D52.9",
+      "description": "Folate deficiency anemia, unspecified",
+      "type": "ICD10"
+    },
+    "D53.9": {
+      "code": "D53.9",
+      "description": "Nutritional anemia, unspecified",
+      "type": "ICD10"
+    },
+    "D56.1": {
+      "code": "D56.1",
+      "description": "Beta thalassemia",
+      "type": "ICD10"
+    },
+    "D57.1": {
+      "code": "D57.1",
+      "description": "Sickle-cell disease without crisis",
+      "type": "ICD10"
+    },
+    "D57.00": {
+      "code": "D57.00",
+      "description": "HbSS disease with crisis, unspecified",
+      "type": "ICD10"
+    },
+    "D61.9": {
+      "code": "D61.9",
+      "description": "Aplastic anemia, unspecified",
+      "type": "ICD10"
+    },
+    "D62": {
+      "code": "D62",
+      "description": "Acute posthemorrhagic anemia",
+      "type": "ICD10"
+    },
+    "D63.1": {
+      "code": "D63.1",
+      "description": "Anemia in chronic kidney disease",
+      "type": "ICD10"
+    },
+    "D64.9": {
+      "code": "D64.9",
+      "description": "Anemia, unspecified",
+      "type": "ICD10"
+    },
+    "D68.59": {
+      "code": "D68.59",
+      "description": "Other primary thrombophilia",
+      "type": "ICD10"
+    },
+    "D69.6": {
+      "code": "D69.6",
+      "description": "Thrombocytopenia, unspecified",
+      "type": "ICD10"
+    },
+    "R00.0": {
+      "code": "R00.0",
+      "description": "Tachycardia, unspecified",
+      "type": "ICD10"
+    },
+    "R00.1": {
+      "code": "R00.1",
+      "description": "Bradycardia, unspecified",
+      "type": "ICD10"
+    },
+    "R04.2": {
+      "code": "R04.2",
+      "description": "Hemoptysis",
+      "type": "ICD10"
+    },
+    "R05.9": {
+      "code": "R05.9",
+      "description": "Cough, unspecified",
+      "type": "ICD10"
+    },
+    "R06.00": {
+      "code": "R06.00",
+      "description": "Dyspnea, unspecified",
+      "type": "ICD10"
+    },
+    "R06.09": {
+      "code": "R06.09",
+      "description": "Other forms of dyspnea",
+      "type": "ICD10"
+    },
+    "R07.9": {
+      "code": "R07.9",
+      "description": "Chest pain, unspecified",
+      "type": "ICD10"
+    },
+    "R09.02": {
+      "code": "R09.02",
+      "description": "Hypoxemia",
+      "type": "ICD10"
+    },
+    "R10.9": {
+      "code": "R10.9",
+      "description": "Unspecified abdominal pain",
+      "type": "ICD10"
+    },
+    "R41.3": {
+      "code": "R41.3",
+      "description": "Other amnesia",
+      "type": "ICD10"
+    },
+    "R55": {
+      "code": "R55",
+      "description": "Syncope and collapse",
+      "type": "ICD10"
+    },
+    "R57.0": {
+      "code": "R57.0",
+      "description": "Cardiogenic shock",
+      "type": "ICD10"
+    },
+    "R57.1": {
+      "code": "R57.1",
+      "description": "Hypovolemic shock",
+      "type": "ICD10"
+    },
+    "R57.9": {
+      "code": "R57.9",
+      "description": "Shock, unspecified",
+      "type": "ICD10"
+    },
+    "R63.4": {
+      "code": "R63.4",
+      "description": "Abnormal weight loss",
+      "type": "ICD10"
+    },
+    "R65.10": {
+      "code": "R65.10",
+      "description": "Systemic inflammatory response syndrome (SIRS) of non-infectious origin without acute organ dysfunction",
+      "type": "ICD10"
+    },
+    "R65.11": {
+      "code": "R65.11",
+      "description": "Systemic inflammatory response syndrome (SIRS) of non-infectious origin with acute organ dysfunction",
+      "type": "ICD10"
+    },
+    "R65.20": {
+      "code": "R65.20",
+      "description": "Severe sepsis without septic shock",
+      "type": "ICD10"
+    },
+    "R65.21": {
+      "code": "R65.21",
+      "description": "Severe sepsis with septic shock",
+      "type": "ICD10"
+    },
+    "R73.09": {
+      "code": "R73.09",
+      "description": "Other abnormal glucose",
+      "type": "ICD10"
+    },
+    "R79.89": {
+      "code": "R79.89",
+      "description": "Other specified abnormal findings of blood chemistry",
+      "type": "ICD10"
+    },
+    "S06.0X0A": {
+      "code": "S06.0X0A",
+      "description": "Concussion without loss of consciousness, initial encounter",
+      "type": "ICD10"
+    },
+    "S72.001A": {
+      "code": "S72.001A",
+      "description": "Fracture of unspecified part of neck of right femur, initial encounter",
+      "type": "ICD10"
+    },
+    "T07": {
+      "code": "T07",
+      "description": "Unspecified multiple injuries",
+      "type": "ICD10"
+    },
+    "T14.90": {
+      "code": "T14.90",
+      "description": "Injury, unspecified",
+      "type": "ICD10"
+    },
+    "Z23": {
+      "code": "Z23",
+      "description": "Encounter for immunization",
+      "type": "ICD10"
+    },
+    "Z51.11": {
+      "code": "Z51.11",
+      "description": "Encounter for antineoplastic chemotherapy",
+      "type": "ICD10"
+    },
+    "Z51.5": {
+      "code": "Z51.5",
+      "description": "Encounter for palliative care",
+      "type": "ICD10"
+    },
+    "Z79.01": {
+      "code": "Z79.01",
+      "description": "Long-term (current) use of anticoagulants",
+      "type": "ICD10"
+    },
+    "Z79.02": {
+      "code": "Z79.02",
+      "description": "Long-term (current) use of antithrombotics/antiplatelets",
+      "type": "ICD10"
+    },
+    "Z79.4": {
+      "code": "Z79.4",
+      "description": "Long-term (current) use of insulin",
+      "type": "ICD10"
+    },
+    "Z79.51": {
+      "code": "Z79.51",
+      "description": "Long-term (current) use of inhaled steroids",
+      "type": "ICD10"
+    },
+    "Z79.52": {
+      "code": "Z79.52",
+      "description": "Long-term (current) use of systemic steroids",
+      "type": "ICD10"
+    },
+    "Z79.84": {
+      "code": "Z79.84",
+      "description": "Long-term (current) use of oral hypoglycemic drugs",
+      "type": "ICD10"
+    },
+    "Z79.899": {
+      "code": "Z79.899",
+      "description": "Other long-term (current) drug therapy",
+      "type": "ICD10"
+    },
+    "Z82.49": {
+      "code": "Z82.49",
+      "description": "Family history of ischemic heart disease and other diseases of the circulatory system",
+      "type": "ICD10"
+    },
+    "Z85.118": {
+      "code": "Z85.118",
+      "description": "Personal history of other malignant neoplasm of bronchus and lung",
+      "type": "ICD10"
+    },
+    "Z85.3": {
+      "code": "Z85.3",
+      "description": "Personal history of malignant neoplasm of breast",
+      "type": "ICD10"
+    },
+    "Z85.828": {
+      "code": "Z85.828",
+      "description": "Personal history of other malignant neoplasm of skin",
+      "type": "ICD10"
+    },
+    "Z87.39": {
+      "code": "Z87.39",
+      "description": "Personal history of other endocrine, nutritional and metabolic diseases",
+      "type": "ICD10"
+    },
+    "Z87.891": {
+      "code": "Z87.891",
+      "description": "Personal history of nicotine dependence",
+      "type": "ICD10"
+    },
+    "Z96.641": {
+      "code": "Z96.641",
+      "description": "Presence of right artificial hip joint",
+      "type": "ICD10"
+    },
+    "Z96.651": {
+      "code": "Z96.651",
+      "description": "Presence of right artificial knee joint",
+      "type": "ICD10"
+    },
+    "Z98.890": {
+      "code": "Z98.890",
+      "description": "Other specified postprocedural states",
+      "type": "ICD10"
+    },
+    "Z99.11": {
+      "code": "Z99.11",
+      "description": "Dependence on respirator",
+      "type": "ICD10"
+    },
+    "Z99.81": {
+      "code": "Z99.81",
+      "description": "Dependence on supplemental oxygen",
+      "type": "ICD10"
+    },
+    "Z99.89": {
+      "code": "Z99.89",
+      "description": "Dependence on other enabling machines and devices",
+      "type": "ICD10"
+    },
+    "K35.2": {
+      "code": "K35.2",
+      "description": "Acute appendicitis with generalized peritonitis",
+      "type": "ICD10"
+    },
+    "K35.21": {
+      "code": "K35.21",
+      "description": "Acute appendicitis with generalized peritonitis and abscess",
+      "type": "ICD10"
+    },
+    "K35.3": {
+      "code": "K35.3",
+      "description": "Acute appendicitis with localized peritonitis",
+      "type": "ICD10"
+    },
+    "K35.80": {
+      "code": "K35.80",
+      "description": "Other and unspecified acute appendicitis without abscess",
+      "type": "ICD10"
+    },
+    "K35.89": {
+      "code": "K35.89",
+      "description": "Other acute appendicitis",
+      "type": "ICD10"
+    },
+    "K36": {
+      "code": "K36",
+      "description": "Other appendicitis",
+      "type": "ICD10"
+    },
+    "K37": {
+      "code": "K37",
+      "description": "Unspecified acute appendicitis",
+      "type": "ICD10"
+    },
+    "K38.0": {
+      "code": "K38.0",
+      "description": "Hyperplasia of appendix",
+      "type": "ICD10"
+    },
+    "K38.9": {
+      "code": "K38.9",
+      "description": "Disease of appendix, unspecified",
+      "type": "ICD10"
+    },
+    "E11.311": {
+      "code": "E11.311",
+      "description": "Type 2 diabetes mellitus with unspecified diabetic retinopathy with macular edema",
+      "type": "ICD10"
+    },
+    "E11.319": {
+      "code": "E11.319",
+      "description": "Type 2 diabetes mellitus with unspecified diabetic retinopathy without macular edema",
+      "type": "ICD10"
+    },
+    "E11.351": {
+      "code": "E11.351",
+      "description": "Type 2 diabetes mellitus with proliferative diabetic retinopathy with macular edema",
+      "type": "ICD10"
+    },
+    "E11.41": {
+      "code": "E11.41",
+      "description": "Type 2 diabetes mellitus with diabetic mononeuropathy",
+      "type": "ICD10"
+    },
+    "E11.42": {
+      "code": "E11.42",
+      "description": "Type 2 diabetes mellitus with diabetic polyneuropathy",
+      "type": "ICD10"
+    },
+    "E11.43": {
+      "code": "E11.43",
+      "description": "Type 2 diabetes mellitus with diabetic autonomic (poly)neuropathy",
+      "type": "ICD10"
+    },
+    "E11.44": {
+      "code": "E11.44",
+      "description": "Type 2 diabetes mellitus with diabetic amyotrophy",
+      "type": "ICD10"
+    },
+    "I13.0": {
+      "code": "I13.0",
+      "description": "Hypertensive heart and chronic kidney disease with heart failure and stage 1-4 CKD",
+      "type": "ICD10"
+    },
+    "I13.11": {
+      "code": "I13.11",
+      "description": "Hypertensive heart and chronic kidney disease without heart failure, with stage 5 CKD or ESRD",
+      "type": "ICD10"
+    },
+    "I13.2": {
+      "code": "I13.2",
+      "description": "Hypertensive heart and chronic kidney disease with heart failure and stage 5 CKD or ESRD",
+      "type": "ICD10"
+    },
+    "E66.2": {
+      "code": "E66.2",
+      "description": "Morbid (severe) obesity with alveolar hypoventilation",
+      "type": "ICD10"
+    },
+    "Z68.35": {
+      "code": "Z68.35",
+      "description": "Body mass index 35.0-35.9, adult",
+      "type": "ICD10"
+    },
+    "Z68.36": {
+      "code": "Z68.36",
+      "description": "Body mass index 36.0-36.9, adult",
+      "type": "ICD10"
+    },
+    "Z68.37": {
+      "code": "Z68.37",
+      "description": "Body mass index 37.0-37.9, adult",
+      "type": "ICD10"
+    },
+    "Z68.38": {
+      "code": "Z68.38",
+      "description": "Body mass index 38.0-38.9, adult",
+      "type": "ICD10"
+    },
+    "Z68.39": {
+      "code": "Z68.39",
+      "description": "Body mass index 39.0-39.9, adult",
+      "type": "ICD10"
+    },
+    "Z68.41": {
+      "code": "Z68.41",
+      "description": "Body mass index 40.0-44.9, adult",
+      "type": "ICD10"
+    },
+    "Z68.42": {
+      "code": "Z68.42",
+      "description": "Body mass index 45.0-49.9, adult",
+      "type": "ICD10"
+    },
+    "Z68.43": {
+      "code": "Z68.43",
+      "description": "Body mass index 50.0-59.9, adult",
+      "type": "ICD10"
+    },
+    "J15.29": {
+      "code": "J15.29",
+      "description": "Pneumonia due to other staphylococcus",
+      "type": "ICD10"
+    },
+    "N30.00": {
+      "code": "N30.00",
+      "description": "Acute cystitis without hematuria",
+      "type": "ICD10"
+    },
+    "N30.01": {
+      "code": "N30.01",
+      "description": "Acute cystitis with hematuria",
+      "type": "ICD10"
+    },
+    "N10": {
+      "code": "N10",
+      "description": "Acute pyelonephritis",
+      "type": "ICD10"
+    },
+    "N11.9": {
+      "code": "N11.9",
+      "description": "Chronic tubulo-interstitial nephritis, unspecified",
+      "type": "ICD10"
+    },
+    "N28.9": {
+      "code": "N28.9",
+      "description": "Disorder of kidney and ureter, unspecified",
+      "type": "ICD10"
+    },
+    "J96.11": {
+      "code": "J96.11",
+      "description": "Chronic respiratory failure with hypoxia",
+      "type": "ICD10"
+    },
+    "J96.12": {
+      "code": "J96.12",
+      "description": "Chronic respiratory failure with hypercapnia",
+      "type": "ICD10"
+    },
+    "J96.21": {
+      "code": "J96.21",
+      "description": "Acute and chronic respiratory failure with hypoxia",
+      "type": "ICD10"
+    },
+    "J96.22": {
+      "code": "J96.22",
+      "description": "Acute and chronic respiratory failure with hypercapnia",
+      "type": "ICD10"
+    },
+    "N17.1": {
+      "code": "N17.1",
+      "description": "Acute kidney failure with acute cortical necrosis",
+      "type": "ICD10"
+    },
+    "N17.2": {
+      "code": "N17.2",
+      "description": "Acute kidney failure with medullary necrosis",
+      "type": "ICD10"
+    },
+    "N17.8": {
+      "code": "N17.8",
+      "description": "Other acute kidney failure",
+      "type": "ICD10"
+    },
+    "R57.8": {
+      "code": "R57.8",
+      "description": "Other shock",
+      "type": "ICD10"
+    },
+    "I50.810": {
+      "code": "I50.810",
+      "description": "Right heart failure, unspecified",
+      "type": "ICD10"
+    },
+    "I50.811": {
+      "code": "I50.811",
+      "description": "Acute right heart failure",
+      "type": "ICD10"
+    },
+    "I50.812": {
+      "code": "I50.812",
+      "description": "Chronic right heart failure",
+      "type": "ICD10"
+    },
+    "I50.813": {
+      "code": "I50.813",
+      "description": "Acute on chronic right heart failure",
+      "type": "ICD10"
+    },
+    "I50.814": {
+      "code": "I50.814",
+      "description": "Right heart failure due to left heart failure",
+      "type": "ICD10"
+    },
+    "I50.82": {
+      "code": "I50.82",
+      "description": "Biventricular heart failure",
+      "type": "ICD10"
+    },
+    "I50.83": {
+      "code": "I50.83",
+      "description": "High output heart failure",
+      "type": "ICD10"
+    },
+    "I50.84": {
+      "code": "I50.84",
+      "description": "End stage heart failure",
+      "type": "ICD10"
+    },
+    "I50.89": {
+      "code": "I50.89",
+      "description": "Other heart failure",
+      "type": "ICD10"
+    },
+    "E22.2": {
+      "code": "E22.2",
+      "description": "Syndrome of inappropriate secretion of antidiuretic hormone",
+      "type": "ICD10"
+    },
+    "F41.3": {
+      "code": "F41.3",
+      "description": "Other mixed anxiety disorders",
+      "type": "ICD10"
+    },
+    "F41.8": {
+      "code": "F41.8",
+      "description": "Other specified anxiety disorders",
+      "type": "ICD10"
+    },
+    "J45.21": {
+      "code": "J45.21",
+      "description": "Mild intermittent asthma with (acute) exacerbation",
+      "type": "ICD10"
+    },
+    "J45.22": {
+      "code": "J45.22",
+      "description": "Mild intermittent asthma with status asthmaticus",
+      "type": "ICD10"
+    }
+  },
+  "cpt": {
+    "99202": {
+      "code": "99202",
+      "description": "Office/outpatient visit, new patient, straightforward MDM, 15-29 min",
+      "type": "CPT"
+    },
+    "99203": {
+      "code": "99203",
+      "description": "Office/outpatient visit, new patient, low MDM, 30-44 min",
+      "type": "CPT"
+    },
+    "99204": {
+      "code": "99204",
+      "description": "Office/outpatient visit, new patient, moderate MDM, 45-59 min",
+      "type": "CPT"
+    },
+    "99205": {
+      "code": "99205",
+      "description": "Office/outpatient visit, new patient, high MDM, 60-74 min",
+      "type": "CPT"
+    },
+    "99211": {
+      "code": "99211",
+      "description": "Office/outpatient visit, established patient, minimal MDM",
+      "type": "CPT"
+    },
+    "99212": {
+      "code": "99212",
+      "description": "Office/outpatient visit, established patient, straightforward MDM, 10-19 min",
+      "type": "CPT"
+    },
+    "99213": {
+      "code": "99213",
+      "description": "Office/outpatient visit, established patient, low MDM, 20-29 min",
+      "type": "CPT"
+    },
+    "99214": {
+      "code": "99214",
+      "description": "Office/outpatient visit, established patient, moderate MDM, 30-39 min",
+      "type": "CPT"
+    },
+    "99215": {
+      "code": "99215",
+      "description": "Office/outpatient visit, established patient, high MDM, 40-54 min",
+      "type": "CPT"
+    },
+    "99221": {
+      "code": "99221",
+      "description": "Initial hospital inpatient care, straightforward/low MDM, 40-54 min",
+      "type": "CPT"
+    },
+    "99222": {
+      "code": "99222",
+      "description": "Initial hospital inpatient care, moderate MDM, 55-69 min",
+      "type": "CPT"
+    },
+    "99223": {
+      "code": "99223",
+      "description": "Initial hospital inpatient care, high MDM, 70-84 min",
+      "type": "CPT"
+    },
+    "99231": {
+      "code": "99231",
+      "description": "Subsequent hospital inpatient care, straightforward/low MDM, 25-34 min",
+      "type": "CPT"
+    },
+    "99232": {
+      "code": "99232",
+      "description": "Subsequent hospital inpatient care, moderate MDM, 35-44 min",
+      "type": "CPT"
+    },
+    "99233": {
+      "code": "99233",
+      "description": "Subsequent hospital inpatient care, high MDM, 45-59 min",
+      "type": "CPT"
+    },
+    "99234": {
+      "code": "99234",
+      "description": "Hospital inpatient/observation care, straightforward/low MDM, 45-59 min",
+      "type": "CPT"
+    },
+    "99235": {
+      "code": "99235",
+      "description": "Hospital inpatient/observation care, moderate MDM, 60-74 min",
+      "type": "CPT"
+    },
+    "99236": {
+      "code": "99236",
+      "description": "Hospital inpatient/observation care, high MDM, 75-89 min",
+      "type": "CPT"
+    },
+    "99238": {
+      "code": "99238",
+      "description": "Hospital inpatient/observation discharge, 30 min or less",
+      "type": "CPT"
+    },
+    "99239": {
+      "code": "99239",
+      "description": "Hospital inpatient/observation discharge, more than 30 min",
+      "type": "CPT"
+    },
+    "99291": {
+      "code": "99291",
+      "description": "Critical care, first 30-74 minutes",
+      "type": "CPT"
+    },
+    "99292": {
+      "code": "99292",
+      "description": "Critical care, each additional 30 minutes",
+      "type": "CPT"
+    },
+    "99281": {
+      "code": "99281",
+      "description": "Emergency department visit, self-limited/minor problem",
+      "type": "CPT"
+    },
+    "99282": {
+      "code": "99282",
+      "description": "Emergency department visit, low complexity",
+      "type": "CPT"
+    },
+    "99283": {
+      "code": "99283",
+      "description": "Emergency department visit, moderate complexity",
+      "type": "CPT"
+    },
+    "99284": {
+      "code": "99284",
+      "description": "Emergency department visit, high complexity",
+      "type": "CPT"
+    },
+    "99285": {
+      "code": "99285",
+      "description": "Emergency department visit, high complexity, high threat to life",
+      "type": "CPT"
+    },
+    "99242": {
+      "code": "99242",
+      "description": "Office consultation, straightforward MDM, 20-29 min",
+      "type": "CPT"
+    },
+    "99243": {
+      "code": "99243",
+      "description": "Office consultation, low MDM, 30-39 min",
+      "type": "CPT"
+    },
+    "99244": {
+      "code": "99244",
+      "description": "Office consultation, moderate MDM, 40-54 min",
+      "type": "CPT"
+    },
+    "99245": {
+      "code": "99245",
+      "description": "Office consultation, high MDM, 55-67 min",
+      "type": "CPT"
+    },
+    "99252": {
+      "code": "99252",
+      "description": "Inpatient/observation consultation, straightforward MDM, 35-44 min",
+      "type": "CPT"
+    },
+    "99253": {
+      "code": "99253",
+      "description": "Inpatient/observation consultation, low MDM, 45-54 min",
+      "type": "CPT"
+    },
+    "99254": {
+      "code": "99254",
+      "description": "Inpatient/observation consultation, moderate MDM, 55-69 min",
+      "type": "CPT"
+    },
+    "99255": {
+      "code": "99255",
+      "description": "Inpatient/observation consultation, high MDM, 70-84 min",
+      "type": "CPT"
+    },
+    "92920": {
+      "code": "92920",
+      "description": "Percutaneous transluminal coronary angioplasty (PTCA), single major coronary artery or branch",
+      "type": "CPT"
+    },
+    "92924": {
+      "code": "92924",
+      "description": "Percutaneous transluminal coronary atherectomy, single major coronary artery",
+      "type": "CPT"
+    },
+    "92928": {
+      "code": "92928",
+      "description": "Percutaneous transcatheter placement of intracoronary stent(s), single major coronary artery",
+      "type": "CPT"
+    },
+    "92929": {
+      "code": "92929",
+      "description": "Percutaneous transcatheter placement of intracoronary stent(s), each additional branch",
+      "type": "CPT"
+    },
+    "92941": {
+      "code": "92941",
+      "description": "Percutaneous transluminal revascularization of acute total/subtotal occlusion (STEMI)",
+      "type": "CPT"
+    },
+    "92980": {
+      "code": "92980",
+      "description": "Coronary artery stenting, single vessel (legacy code, use 92928)",
+      "type": "CPT"
+    },
+    "93000": {
+      "code": "93000",
+      "description": "Electrocardiogram, routine ECG with 12 leads, interpretation and report",
+      "type": "CPT"
+    },
+    "93005": {
+      "code": "93005",
+      "description": "Electrocardiogram, routine ECG with 12 leads, tracing only",
+      "type": "CPT"
+    },
+    "93010": {
+      "code": "93010",
+      "description": "Electrocardiogram, routine ECG, interpretation and report only",
+      "type": "CPT"
+    },
+    "93015": {
+      "code": "93015",
+      "description": "Cardiovascular stress test, using maximal or submaximal treadmill or bicycle exercise",
+      "type": "CPT"
+    },
+    "93016": {
+      "code": "93016",
+      "description": "Cardiovascular stress test, physician supervision only",
+      "type": "CPT"
+    },
+    "93017": {
+      "code": "93017",
+      "description": "Cardiovascular stress test, tracing only, without interpretation",
+      "type": "CPT"
+    },
+    "93018": {
+      "code": "93018",
+      "description": "Cardiovascular stress test, interpretation and report only",
+      "type": "CPT"
+    },
+    "93224": {
+      "code": "93224",
+      "description": "External electrocardiographic recording, up to 48 hours",
+      "type": "CPT"
+    },
+    "93241": {
+      "code": "93241",
+      "description": "External electrocardiographic recording, more than 48 hours up to 7 days",
+      "type": "CPT"
+    },
+    "93303": {
+      "code": "93303",
+      "description": "Transthoracic echocardiography for congenital cardiac anomalies, complete",
+      "type": "CPT"
+    },
+    "93304": {
+      "code": "93304",
+      "description": "Transthoracic echocardiography for congenital cardiac anomalies, follow-up",
+      "type": "CPT"
+    },
+    "93306": {
+      "code": "93306",
+      "description": "Echocardiography, transthoracic, real-time with image documentation (2D), with M-mode recording, complete",
+      "type": "CPT"
+    },
+    "93307": {
+      "code": "93307",
+      "description": "Echocardiography, transthoracic, real-time with image documentation (2D), with M-mode recording, without spectral Doppler",
+      "type": "CPT"
+    },
+    "93308": {
+      "code": "93308",
+      "description": "Echocardiography, transthoracic, real-time with image documentation (2D), follow-up or limited study",
+      "type": "CPT"
+    },
+    "93312": {
+      "code": "93312",
+      "description": "Echocardiography, transesophageal, real time with image documentation",
+      "type": "CPT"
+    },
+    "93350": {
+      "code": "93350",
+      "description": "Echocardiography, transthoracic, real-time with image documentation (stress echo)",
+      "type": "CPT"
+    },
+    "93451": {
+      "code": "93451",
+      "description": "Right heart catheterization including measurement(s) of oxygen saturation and cardiac output",
+      "type": "CPT"
+    },
+    "93452": {
+      "code": "93452",
+      "description": "Left heart catheterization including intraprocedural injection(s) for left ventriculography",
+      "type": "CPT"
+    },
+    "93453": {
+      "code": "93453",
+      "description": "Combined right and left heart catheterization",
+      "type": "CPT"
+    },
+    "93454": {
+      "code": "93454",
+      "description": "Coronary angiography without left heart catheterization",
+      "type": "CPT"
+    },
+    "93455": {
+      "code": "93455",
+      "description": "Coronary angiography with right heart catheterization",
+      "type": "CPT"
+    },
+    "93456": {
+      "code": "93456",
+      "description": "Coronary angiography with left heart catheterization",
+      "type": "CPT"
+    },
+    "93458": {
+      "code": "93458",
+      "description": "Left heart catheterization with coronary angiography and left ventriculography",
+      "type": "CPT"
+    },
+    "93459": {
+      "code": "93459",
+      "description": "Left heart catheterization with coronary angiography, left ventriculography, and right heart catheterization",
+      "type": "CPT"
+    },
+    "93460": {
+      "code": "93460",
+      "description": "Combined heart catheterization with coronary angiography",
+      "type": "CPT"
+    },
+    "93461": {
+      "code": "93461",
+      "description": "Combined heart catheterization with coronary angiography and ventriculography",
+      "type": "CPT"
+    },
+    "93600": {
+      "code": "93600",
+      "description": "Bundle of His recording",
+      "type": "CPT"
+    },
+    "93610": {
+      "code": "93610",
+      "description": "Intra-atrial pacing",
+      "type": "CPT"
+    },
+    "93619": {
+      "code": "93619",
+      "description": "Comprehensive electrophysiologic evaluation, with right atrial pacing and recording, right ventricular pacing",
+      "type": "CPT"
+    },
+    "93620": {
+      "code": "93620",
+      "description": "Comprehensive electrophysiologic evaluation with induction of arrhythmia",
+      "type": "CPT"
+    },
+    "93650": {
+      "code": "93650",
+      "description": "Intracardiac catheter ablation of atrioventricular node function",
+      "type": "CPT"
+    },
+    "93653": {
+      "code": "93653",
+      "description": "Comprehensive electrophysiologic evaluation with catheter ablation of arrhythmia",
+      "type": "CPT"
+    },
+    "93656": {
+      "code": "93656",
+      "description": "Comprehensive electrophysiologic evaluation with catheter ablation of atrial fibrillation",
+      "type": "CPT"
+    },
+    "70450": {
+      "code": "70450",
+      "description": "CT scan, head or brain, without contrast",
+      "type": "CPT"
+    },
+    "70460": {
+      "code": "70460",
+      "description": "CT scan, head or brain, with contrast",
+      "type": "CPT"
+    },
+    "70470": {
+      "code": "70470",
+      "description": "CT scan, head or brain, without and with contrast",
+      "type": "CPT"
+    },
+    "70496": {
+      "code": "70496",
+      "description": "CT angiography, head",
+      "type": "CPT"
+    },
+    "70498": {
+      "code": "70498",
+      "description": "CT angiography, neck",
+      "type": "CPT"
+    },
+    "70553": {
+      "code": "70553",
+      "description": "MRI, brain, without and with contrast",
+      "type": "CPT"
+    },
+    "71045": {
+      "code": "71045",
+      "description": "Radiologic examination, chest; single view",
+      "type": "CPT"
+    },
+    "71046": {
+      "code": "71046",
+      "description": "Radiologic examination, chest; 2 views",
+      "type": "CPT"
+    },
+    "71047": {
+      "code": "71047",
+      "description": "Radiologic examination, chest; 3 views",
+      "type": "CPT"
+    },
+    "71048": {
+      "code": "71048",
+      "description": "Radiologic examination, chest; 4 or more views",
+      "type": "CPT"
+    },
+    "71250": {
+      "code": "71250",
+      "description": "CT thorax, without contrast",
+      "type": "CPT"
+    },
+    "71260": {
+      "code": "71260",
+      "description": "CT thorax, with contrast",
+      "type": "CPT"
+    },
+    "71275": {
+      "code": "71275",
+      "description": "CT angiography, thoracic aorta",
+      "type": "CPT"
+    },
+    "72050": {
+      "code": "72050",
+      "description": "Radiologic examination, spine, cervical, 2 or 3 views",
+      "type": "CPT"
+    },
+    "72100": {
+      "code": "72100",
+      "description": "Radiologic examination, spine, lumbosacral; 2 or 3 views",
+      "type": "CPT"
+    },
+    "72148": {
+      "code": "72148",
+      "description": "MRI, lumbar spine, without contrast",
+      "type": "CPT"
+    },
+    "72158": {
+      "code": "72158",
+      "description": "MRI, lumbar spine, without and with contrast",
+      "type": "CPT"
+    },
+    "73221": {
+      "code": "73221",
+      "description": "MRI, joint of upper extremity, without contrast",
+      "type": "CPT"
+    },
+    "73721": {
+      "code": "73721",
+      "description": "MRI, joint of lower extremity, without contrast",
+      "type": "CPT"
+    },
+    "74177": {
+      "code": "74177",
+      "description": "CT abdomen and pelvis, with contrast",
+      "type": "CPT"
+    },
+    "74178": {
+      "code": "74178",
+      "description": "CT abdomen and pelvis, without and with contrast",
+      "type": "CPT"
+    },
+    "74181": {
+      "code": "74181",
+      "description": "MRI, abdomen, without contrast",
+      "type": "CPT"
+    },
+    "74183": {
+      "code": "74183",
+      "description": "MRI, abdomen, without and with contrast",
+      "type": "CPT"
+    },
+    "75572": {
+      "code": "75572",
+      "description": "CT heart, without contrast, with quantitative evaluation of coronary calcium",
+      "type": "CPT"
+    },
+    "75574": {
+      "code": "75574",
+      "description": "CT angiography, heart, coronary arteries and bypass grafts, with contrast",
+      "type": "CPT"
+    },
+    "76536": {
+      "code": "76536",
+      "description": "Ultrasound, soft tissues of head and neck (eg, thyroid, parathyroid, parotid), B-scan",
+      "type": "CPT"
+    },
+    "76700": {
+      "code": "76700",
+      "description": "Ultrasound, abdominal, real time with image documentation, complete",
+      "type": "CPT"
+    },
+    "76705": {
+      "code": "76705",
+      "description": "Ultrasound, abdominal, real time with image documentation, limited",
+      "type": "CPT"
+    },
+    "76770": {
+      "code": "76770",
+      "description": "Ultrasound, retroperitoneal (eg, renal, aorta, nodes), real time, complete",
+      "type": "CPT"
+    },
+    "76817": {
+      "code": "76817",
+      "description": "Ultrasound, pregnant uterus, real time with image documentation, transvaginal",
+      "type": "CPT"
+    },
+    "76830": {
+      "code": "76830",
+      "description": "Ultrasound, transvaginal",
+      "type": "CPT"
+    },
+    "93880": {
+      "code": "93880",
+      "description": "Duplex scan of extracranial arteries, complete bilateral study",
+      "type": "CPT"
+    },
+    "93971": {
+      "code": "93971",
+      "description": "Duplex scan of extremity veins, unilateral or limited study",
+      "type": "CPT"
+    },
+    "80048": {
+      "code": "80048",
+      "description": "Basic metabolic panel (BMP): calcium, carbon dioxide, chloride, creatinine, glucose, potassium, sodium, BUN",
+      "type": "CPT"
+    },
+    "80053": {
+      "code": "80053",
+      "description": "Comprehensive metabolic panel (CMP)",
+      "type": "CPT"
+    },
+    "80061": {
+      "code": "80061",
+      "description": "Lipid panel: total cholesterol, HDL cholesterol, triglycerides",
+      "type": "CPT"
+    },
+    "81001": {
+      "code": "81001",
+      "description": "Urinalysis, by dip stick or tablet reagent, automated, with microscopy",
+      "type": "CPT"
+    },
+    "82550": {
+      "code": "82550",
+      "description": "Creatine kinase (CK); total",
+      "type": "CPT"
+    },
+    "82553": {
+      "code": "82553",
+      "description": "Creatine kinase; MB fraction only",
+      "type": "CPT"
+    },
+    "82947": {
+      "code": "82947",
+      "description": "Glucose; quantitative, blood",
+      "type": "CPT"
+    },
+    "83036": {
+      "code": "83036",
+      "description": "Hemoglobin A1C",
+      "type": "CPT"
+    },
+    "83700": {
+      "code": "83700",
+      "description": "Lipoprotein, blood; electrophoretic separation and quantitation",
+      "type": "CPT"
+    },
+    "84153": {
+      "code": "84153",
+      "description": "Prostate specific antigen (PSA); total",
+      "type": "CPT"
+    },
+    "84443": {
+      "code": "84443",
+      "description": "Thyroid stimulating hormone (TSH)",
+      "type": "CPT"
+    },
+    "84480": {
+      "code": "84480",
+      "description": "Triiodothyronine (T3); total",
+      "type": "CPT"
+    },
+    "84484": {
+      "code": "84484",
+      "description": "Troponin; quantitative",
+      "type": "CPT"
+    },
+    "84512": {
+      "code": "84512",
+      "description": "Troponin; qualitative",
+      "type": "CPT"
+    },
+    "85025": {
+      "code": "85025",
+      "description": "Blood count; complete (CBC), automated and automated differential WBC count",
+      "type": "CPT"
+    },
+    "85027": {
+      "code": "85027",
+      "description": "Blood count; complete (CBC), automated",
+      "type": "CPT"
+    },
+    "85610": {
+      "code": "85610",
+      "description": "Prothrombin time (PT)",
+      "type": "CPT"
+    },
+    "85730": {
+      "code": "85730",
+      "description": "Thromboplastin time, partial (PTT)",
+      "type": "CPT"
+    },
+    "86140": {
+      "code": "86140",
+      "description": "C-reactive protein",
+      "type": "CPT"
+    },
+    "86200": {
+      "code": "86200",
+      "description": "Cyclic citrullinated peptide (CCP) antibody",
+      "type": "CPT"
+    },
+    "86235": {
+      "code": "86235",
+      "description": "Antinuclear antibody (ANA)",
+      "type": "CPT"
+    },
+    "86900": {
+      "code": "86900",
+      "description": "Blood typing, ABO",
+      "type": "CPT"
+    },
+    "87205": {
+      "code": "87205",
+      "description": "Smear, primary source with interpretation; Gram or Giemsa stain for bacteria",
+      "type": "CPT"
+    },
+    "87340": {
+      "code": "87340",
+      "description": "Infectious agent antigen detection by immunoassay technique; Hepatitis B surface antigen (HBsAg)",
+      "type": "CPT"
+    },
+    "87490": {
+      "code": "87490",
+      "description": "Chlamydia trachomatis, amplified probe technique",
+      "type": "CPT"
+    },
+    "87591": {
+      "code": "87591",
+      "description": "Neisseria gonorrhoeae, amplified probe technique",
+      "type": "CPT"
+    },
+    "87635": {
+      "code": "87635",
+      "description": "SARS-CoV-2 (COVID-19), amplified probe technique",
+      "type": "CPT"
+    },
+    "87804": {
+      "code": "87804",
+      "description": "Influenza virus, immunoassay with direct optical observation; A",
+      "type": "CPT"
+    },
+    "88305": {
+      "code": "88305",
+      "description": "Surgical pathology, gross and microscopic examination; tissue biopsy",
+      "type": "CPT"
+    },
+    "19301": {
+      "code": "19301",
+      "description": "Mastectomy, partial (eg, lumpectomy, tylectomy, quadrantectomy, segmentectomy)",
+      "type": "CPT"
+    },
+    "27447": {
+      "code": "27447",
+      "description": "Arthroplasty, knee, condyle and plateau; medial AND lateral compartments with or without patella resurfacing",
+      "type": "CPT"
+    },
+    "27130": {
+      "code": "27130",
+      "description": "Arthroplasty, acetabular and proximal femoral prosthetic replacement (total hip arthroplasty)",
+      "type": "CPT"
+    },
+    "33361": {
+      "code": "33361",
+      "description": "Transcatheter aortic valve replacement (TAVR), percutaneous femoral artery approach",
+      "type": "CPT"
+    },
+    "33533": {
+      "code": "33533",
+      "description": "Coronary artery bypass, using arterial graft(s), single",
+      "type": "CPT"
+    },
+    "33534": {
+      "code": "33534",
+      "description": "Coronary artery bypass, using arterial graft(s), two",
+      "type": "CPT"
+    },
+    "33535": {
+      "code": "33535",
+      "description": "Coronary artery bypass, using arterial graft(s), three",
+      "type": "CPT"
+    },
+    "33536": {
+      "code": "33536",
+      "description": "Coronary artery bypass, using arterial graft(s), four or more",
+      "type": "CPT"
+    },
+    "33572": {
+      "code": "33572",
+      "description": "Coronary endarterectomy, open; any method, each vessel",
+      "type": "CPT"
+    },
+    "43239": {
+      "code": "43239",
+      "description": "Esophagogastroduodenoscopy, flexible; with biopsy, single or multiple",
+      "type": "CPT"
+    },
+    "43249": {
+      "code": "43249",
+      "description": "Esophagogastroduodenoscopy, with dilation of esophagus",
+      "type": "CPT"
+    },
+    "43251": {
+      "code": "43251",
+      "description": "Esophagogastroduodenoscopy, with removal of tumor(s), polyp(s)",
+      "type": "CPT"
+    },
+    "44140": {
+      "code": "44140",
+      "description": "Colectomy, partial; with anastomosis",
+      "type": "CPT"
+    },
+    "44950": {
+      "code": "44950",
+      "description": "Appendectomy",
+      "type": "CPT"
+    },
+    "44960": {
+      "code": "44960",
+      "description": "Appendectomy; for ruptured appendix with abscess",
+      "type": "CPT"
+    },
+    "45378": {
+      "code": "45378",
+      "description": "Colonoscopy, flexible; diagnostic",
+      "type": "CPT"
+    },
+    "45380": {
+      "code": "45380",
+      "description": "Colonoscopy, flexible; with biopsy, single or multiple",
+      "type": "CPT"
+    },
+    "45385": {
+      "code": "45385",
+      "description": "Colonoscopy, flexible; with removal of tumor(s), polyp(s) by snare technique",
+      "type": "CPT"
+    },
+    "47562": {
+      "code": "47562",
+      "description": "Laparoscopic cholecystectomy without intraoperative cholangiography",
+      "type": "CPT"
+    },
+    "47563": {
+      "code": "47563",
+      "description": "Laparoscopic cholecystectomy with intraoperative cholangiography",
+      "type": "CPT"
+    },
+    "49505": {
+      "code": "49505",
+      "description": "Repair initial inguinal hernia, age 5 years or older; reducible",
+      "type": "CPT"
+    },
+    "49521": {
+      "code": "49521",
+      "description": "Repair recurrent inguinal hernia, age 5 years or older; reducible",
+      "type": "CPT"
+    },
+    "60500": {
+      "code": "60500",
+      "description": "Parathyroidectomy or exploration of parathyroid gland(s)",
+      "type": "CPT"
+    },
+    "60240": {
+      "code": "60240",
+      "description": "Thyroidectomy, total",
+      "type": "CPT"
+    },
+    "31500": {
+      "code": "31500",
+      "description": "Intubation, endotracheal, emergency procedure",
+      "type": "CPT"
+    },
+    "31622": {
+      "code": "31622",
+      "description": "Bronchoscopy, rigid or flexible, with or without fluoroscopic guidance; diagnostic",
+      "type": "CPT"
+    },
+    "36415": {
+      "code": "36415",
+      "description": "Collection of venous blood by venipuncture",
+      "type": "CPT"
+    },
+    "36430": {
+      "code": "36430",
+      "description": "Transfusion, blood or blood components",
+      "type": "CPT"
+    },
+    "36620": {
+      "code": "36620",
+      "description": "Arterial catheterization or cannulation for sampling, monitoring or transfusion",
+      "type": "CPT"
+    },
+    "90837": {
+      "code": "90837",
+      "description": "Psychotherapy, 60 minutes with patient",
+      "type": "CPT"
+    },
+    "90847": {
+      "code": "90847",
+      "description": "Family psychotherapy with patient present, 50 minutes",
+      "type": "CPT"
+    },
+    "92950": {
+      "code": "92950",
+      "description": "Cardiopulmonary resuscitation (CPR)",
+      "type": "CPT"
+    },
+    "93750": {
+      "code": "93750",
+      "description": "Interrogation device evaluation, implantable cardioverter-defibrillator system",
+      "type": "CPT"
+    },
+    "94002": {
+      "code": "94002",
+      "description": "Ventilation assist and management, initiation of pressure or volume preset ventilators for assisted or controlled breathing",
+      "type": "CPT"
+    },
+    "94640": {
+      "code": "94640",
+      "description": "Pressurized or nonpressurized inhalation treatment for acute airway obstruction",
+      "type": "CPT"
+    },
+    "94664": {
+      "code": "94664",
+      "description": "Demonstration and/or evaluation of patient utilization of an aerosol generator",
+      "type": "CPT"
+    },
+    "94760": {
+      "code": "94760",
+      "description": "Noninvasive ear or pulse oximetry for oxygen saturation; single determination",
+      "type": "CPT"
+    },
+    "96360": {
+      "code": "96360",
+      "description": "Intravenous infusion, hydration; initial, 31 minutes to 1 hour",
+      "type": "CPT"
+    },
+    "96365": {
+      "code": "96365",
+      "description": "Intravenous infusion, therapy/diagnosis; initial, up to 1 hour",
+      "type": "CPT"
+    },
+    "96374": {
+      "code": "96374",
+      "description": "Therapeutic, prophylactic, or diagnostic injection; intravenous push, single or initial substance",
+      "type": "CPT"
+    },
+    "96401": {
+      "code": "96401",
+      "description": "Chemotherapy administration, subcutaneous or intramuscular; non-hormonal anti-neoplastic",
+      "type": "CPT"
+    },
+    "96413": {
+      "code": "96413",
+      "description": "Chemotherapy administration, intravenous infusion technique; up to 1 hour, single or initial substance",
+      "type": "CPT"
+    },
+    "99173": {
+      "code": "99173",
+      "description": "Screening test of visual acuity, quantitative, bilateral",
+      "type": "CPT"
+    },
+    "99406": {
+      "code": "99406",
+      "description": "Smoking and tobacco use cessation counseling visit; intermediate, greater than 3 minutes up to 10 minutes",
+      "type": "CPT"
+    },
+    "99408": {
+      "code": "99408",
+      "description": "Alcohol and/or substance abuse structured screening and brief intervention services; 15 to 30 minutes",
+      "type": "CPT"
+    },
+    "99441": {
+      "code": "99441",
+      "description": "Telephone evaluation and management service, 5-10 minutes",
+      "type": "CPT"
+    },
+    "99446": {
+      "code": "99446",
+      "description": "Interprofessional telephone/internet/electronic health record assessment and management; 5-10 minutes",
+      "type": "CPT"
+    },
+    "92960": {
+      "code": "92960",
+      "description": "Cardioversion, elective, electrical conversion of arrhythmia; external",
+      "type": "CPT"
+    },
+    "93040": {
+      "code": "93040",
+      "description": "Rhythm ECG, with interpretation and report",
+      "type": "CPT"
+    },
+    "93041": {
+      "code": "93041",
+      "description": "Rhythm ECG, tracing only without interpretation and report",
+      "type": "CPT"
+    },
+    "94003": {
+      "code": "94003",
+      "description": "Ventilation assist and management, subsequent inpatient management, each day",
+      "type": "CPT"
+    },
+    "94004": {
+      "code": "94004",
+      "description": "Ventilation assist and management, subsequent nursing facility management, each day",
+      "type": "CPT"
+    },
+    "94660": {
+      "code": "94660",
+      "description": "Continuous positive airway pressure ventilation (CPAP)",
+      "type": "CPT"
+    },
+    "94662": {
+      "code": "94662",
+      "description": "Continuous negative pressure ventilation (CNP)",
+      "type": "CPT"
+    },
+    "94799": {
+      "code": "94799",
+      "description": "Unlisted pulmonary service or procedure",
+      "type": "CPT"
+    },
+    "36555": {
+      "code": "36555",
+      "description": "Insertion of non-tunneled centrally inserted central venous catheter; younger than 5 years",
+      "type": "CPT"
+    },
+    "36556": {
+      "code": "36556",
+      "description": "Insertion of non-tunneled centrally inserted central venous catheter; age 5 years or older",
+      "type": "CPT"
+    },
+    "36557": {
+      "code": "36557",
+      "description": "Insertion of tunneled centrally inserted central venous catheter, without subcutaneous port or pump; younger than 5 years",
+      "type": "CPT"
+    },
+    "36558": {
+      "code": "36558",
+      "description": "Insertion of tunneled centrally inserted central venous catheter, without subcutaneous port or pump; age 5 years or older",
+      "type": "CPT"
+    },
+    "36600": {
+      "code": "36600",
+      "description": "Arterial puncture, withdrawal of blood for diagnosis",
+      "type": "CPT"
+    },
+    "43246": {
+      "code": "43246",
+      "description": "EGD with directed submucosal injection",
+      "type": "CPT"
+    },
+    "43247": {
+      "code": "43247",
+      "description": "EGD with removal of foreign body",
+      "type": "CPT"
+    },
+    "43248": {
+      "code": "43248",
+      "description": "EGD with insertion of guide wire followed by dilation",
+      "type": "CPT"
+    },
+    "49320": {
+      "code": "49320",
+      "description": "Laparoscopy, abdomen, peritoneum, and omentum; diagnostic",
+      "type": "CPT"
+    },
+    "49321": {
+      "code": "49321",
+      "description": "Laparoscopy, surgical; with biopsy",
+      "type": "CPT"
+    },
+    "49322": {
+      "code": "49322",
+      "description": "Laparoscopy, surgical; with aspiration of cavity or cyst",
+      "type": "CPT"
+    },
+    "44970": {
+      "code": "44970",
+      "description": "Laparoscopic appendectomy",
+      "type": "CPT"
+    },
+    "74179": {
+      "code": "74179",
+      "description": "CT abdomen and pelvis without contrast",
+      "type": "CPT"
+    },
+    "74182": {
+      "code": "74182",
+      "description": "MRI abdomen with contrast",
+      "type": "CPT"
+    },
+    "76775": {
+      "code": "76775",
+      "description": "Ultrasound, retroperitoneal, limited",
+      "type": "CPT"
+    },
+    "80047": {
+      "code": "80047",
+      "description": "Basic metabolic panel \u2014 calcium (ionized)",
+      "type": "CPT"
+    },
+    "80069": {
+      "code": "80069",
+      "description": "Renal function panel",
+      "type": "CPT"
+    },
+    "80074": {
+      "code": "80074",
+      "description": "Acute hepatitis panel",
+      "type": "CPT"
+    },
+    "82150": {
+      "code": "82150",
+      "description": "Amylase",
+      "type": "CPT"
+    },
+    "82565": {
+      "code": "82565",
+      "description": "Creatinine; blood",
+      "type": "CPT"
+    },
+    "82570": {
+      "code": "82570",
+      "description": "Creatinine; other source",
+      "type": "CPT"
+    },
+    "83615": {
+      "code": "83615",
+      "description": "Lactate dehydrogenase (LD), (LDH)",
+      "type": "CPT"
+    },
+    "83690": {
+      "code": "83690",
+      "description": "Lipase",
+      "type": "CPT"
+    },
+    "83874": {
+      "code": "83874",
+      "description": "Myoglobin",
+      "type": "CPT"
+    },
+    "83880": {
+      "code": "83880",
+      "description": "Natriuretic peptide",
+      "type": "CPT"
+    },
+    "84155": {
+      "code": "84155",
+      "description": "Protein, total, except by refractometry; serum",
+      "type": "CPT"
+    },
+    "84295": {
+      "code": "84295",
+      "description": "Sodium; serum, plasma or whole blood",
+      "type": "CPT"
+    },
+    "84520": {
+      "code": "84520",
+      "description": "Urea nitrogen (BUN); quantitative",
+      "type": "CPT"
+    },
+    "86431": {
+      "code": "86431",
+      "description": "Rheumatoid factor",
+      "type": "CPT"
+    },
+    "86592": {
+      "code": "86592",
+      "description": "Syphilis test, non-treponemal antibody; qualitative",
+      "type": "CPT"
+    },
+    "87081": {
+      "code": "87081",
+      "description": "Culture, presumptive, pathogenic organisms, screening only",
+      "type": "CPT"
+    },
+    "87086": {
+      "code": "87086",
+      "description": "Culture, bacterial; quantitative colony count, urine",
+      "type": "CPT"
+    },
+    "87088": {
+      "code": "87088",
+      "description": "Culture, bacterial; with isolation and presumptive identification of each isolate, urine",
+      "type": "CPT"
+    },
+    "87186": {
+      "code": "87186",
+      "description": "Susceptibility studies, antimicrobial agent; minimum inhibitory concentration (MIC)",
+      "type": "CPT"
+    }
+  },
+  "meta": {
+    "icd10_count": 443,
+    "cpt_count": 225,
+    "total": 668,
+    "source": "CMS ICD-10-CM 2024 Official Guidelines + AMA CPT 2024"
+  }
+}
