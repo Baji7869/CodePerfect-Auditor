@@ -41,7 +41,6 @@ def db_search(text: str, ctype: str, limit=6) -> list:
     if ctype == "CPT":
         return search_cpt_codes(text, limit)
     return search_icd10_codes(text, limit)
-from utils.knowledge_base import build_knowledge_base as init_knowledge_base
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(name)s: %(message)s')
 logger = logging.getLogger(__name__)
@@ -67,7 +66,6 @@ async def lifespan(app: FastAPI):
             except Exception:
                 pass  # Column already exists
     logger.info("✅ Database ready")
-    init_knowledge_base()
     logger.info("✅ Knowledge base ready")
     yield
 
