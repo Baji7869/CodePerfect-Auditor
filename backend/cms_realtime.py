@@ -33,13 +33,13 @@ logger = logging.getLogger(__name__)
 MPFS_API_URL = "https://data.cms.gov/data-api/v1/dataset/9a3c9f72-3396-4a79-9b8f-e8c1e44c6c5e/data"
 
 # CMS ICD-10-CM 2025 code + description file
-ICD10_ZIP_URL = "https://www.cms.gov/files/zip/2025-icd-10-cm-codes-descriptions-tabular-index.zip"
+ICD10_ZIP_URL = "https://www.cms.gov/files/zip/2026-icd-10-cm-codes-descriptions-tabular-index.zip"
 
 # CMS ICD-10-CM FY2025 tabular (fallback direct text list)
-ICD10_FLAT_URL = "https://www.cms.gov/files/zip/2025-icd-10-cm-order-files.zip"
+ICD10_FLAT_URL = "https://www.cms.gov/files/zip/2026-icd-10-cm-order-files.zip"
 
 # MS-DRG v41 definitions (FY2024) – relative weights file
-MSDRG_URL = "https://www.cms.gov/files/zip/fy2024-final-rule-ms-drg-relative-weights.zip"
+MSDRG_URL = "https://www.cms.gov/files/zip/fy2025-final-rule-ms-drg-relative-weights.zip"
 
 # 2024 CMS Conversion Factor (dollars per RVU)
 CONVERSION_FACTOR = 33.8872

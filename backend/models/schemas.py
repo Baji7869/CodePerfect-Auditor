@@ -88,6 +88,8 @@ class AuditReport(BaseModel):
     critical_findings: List[str] = []
     human_icd10_codes: List[str] = []
     human_cpt_codes: List[str] = []
+    human_icd10_descriptions: Dict[str, str] = {}   # code -> official description
+    human_cpt_descriptions: Dict[str, str] = {}     # code -> official description
     ai_icd10_codes: List[AIGeneratedCode] = []
     ai_cpt_codes: List[AIGeneratedCode] = []
     clinical_facts: ClinicalFacts

@@ -1,0 +1,42 @@
+[
+  {
+    "username": "admin",
+    "password": null,
+    "role": "admin",
+    "name": "System Admin",
+    "email": "admin@codeperfect.ai",
+    "password_hash": "a36aef5a11c4073fbe60314fc9df530a9d5f986533594d1f5190742ff9e0e408"
+  },
+  {
+    "username": "supervisor",
+    "password": null,
+    "role": "supervisor",
+    "name": "Dr. Sarah Chen",
+    "email": "supervisor@codeperfect.ai",
+    "password_hash": "04b4b063c2038952abec8e274f99a6b9a964642d3cf5e98707aae82148f29f05"
+  },
+  {
+    "username": "coder1",
+    "password": null,
+    "role": "coder",
+    "name": "Baji Shaik",
+    "email": "coder1@codeperfect.ai",
+    "password_hash": "e4f9fd86e702614894cd3a0ead4d6710de724646c5088adc19043fbe45ab4e1d"
+  },
+  {
+    "username": "coder2",
+    "password": null,
+    "role": "coder",
+    "name": "Teja Sarat D",
+    "email": "coder2@codeperfect.ai",
+    "password_hash": "3570060a1120948f1047d84372a6ca051dfeee05e8eba54b76c75a3046e64b85"
+  },
+  {
+    "username": "demo",
+    "password": null,
+    "role": "coder",
+    "name": "Demo User",
+    "email": "demo@codeperfect.ai",
+    "password_hash": "6269bdc44514c668efb1ee9442d68ac81c662367fa36c1883e3027ee197f4036"
+  }
+]

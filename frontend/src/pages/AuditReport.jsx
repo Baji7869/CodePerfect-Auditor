@@ -1,4 +1,4 @@
-import { AlertTriangle, Brain, CheckCircle, ChevronLeft, Clock, Code2, DollarSign, Download, FileText, Minus, Quote, Shield, TrendingDown, TrendingUp } from 'lucide-react'
+import { AlertTriangle, Brain, CheckCircle, ChevronLeft, Clock, Code2, DollarSign, FileText, Minus, Quote, Shield, TrendingDown, TrendingUp } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import RiskBadge from '../components/RiskBadge'
@@ -76,16 +76,7 @@ export default function AuditReport() {
               )}
             </div>
           </div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-            <RiskBadge level={report.risk_level} />
-            <a
-              href={`/api/audit/${caseId}/pdf`}
-              download
-              style={{ display: 'inline-flex', alignItems: 'center', gap: '0.375rem', padding: '0.5rem 1rem', borderRadius: 8, background: 'linear-gradient(135deg,#1d4ed8,#2563eb)', color: 'white', fontSize: '0.8rem', fontWeight: 600, textDecoration: 'none', boxShadow: '0 2px 8px rgba(37,99,235,0.35)' }}
-            >
-              <Download size={14} /> Export PDF
-            </a>
-          </div>
+          <RiskBadge level={report.risk_level} />
         </div>
       </div>
 
@@ -230,12 +221,28 @@ export default function AuditReport() {
               <p style={{ fontSize: '0.8rem', color: '#334155' }}>No codes provided</p>
             ) : (
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-                {[...(report.human_icd10_codes || []).map(c => ({ code: c, type: 'ICD10' })), ...(report.human_cpt_codes || []).map(c => ({ code: c, type: 'CPT' }))].map((item, i) => (
-                  <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '0.625rem', padding: '0.625rem 0.75rem', borderRadius: 8, background: 'rgba(8,18,32,0.5)', border: '1px solid rgba(37,99,235,0.1)' }}>
-                    <span style={{ fontFamily: 'monospace', fontSize: '0.85rem', fontWeight: 700, color: '#93c5fd' }}>{item.code}</span>
-                    <span style={{ fontSize: '0.65rem', color: '#475569', background: 'rgba(37,99,235,0.08)', padding: '0.1rem 0.4rem', borderRadius: 4 }}>{item.type}</span>
-                  </div>
-                ))}
+                {[...(report.human_icd10_codes || []).map(c => ({ code: c, type: 'ICD10' })), ...(report.human_cpt_codes || []).map(c => ({ code: c, type: 'CPT' }))].map((item, i) => {
+                  const desc = item.type === 'ICD10'
+                    ? report.human_icd10_descriptions?.[item.code]
+                    : report.human_cpt_descriptions?.[item.code]
+                  const isValid = desc !== undefined && desc !== ''
+                  return (
+                    <div key={i} style={{ padding: '0.625rem 0.75rem', borderRadius: 8, background: 'rgba(8,18,32,0.5)', border: `1px solid ${isValid ? 'rgba(37,99,235,0.15)' : 'rgba(239,68,68,0.25)'}` }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: desc ? '0.25rem' : 0 }}>
+                        <span style={{ fontFamily: 'monospace', fontSize: '0.85rem', fontWeight: 700, color: isValid ? '#93c5fd' : '#f87171' }}>{item.code}</span>
+                        <span style={{ fontSize: '0.65rem', color: '#475569', background: 'rgba(37,99,235,0.08)', padding: '0.1rem 0.4rem', borderRadius: 4 }}>{item.type}</span>
+                        {isValid
+                          ? <span style={{ fontSize: '0.65rem', color: '#4ade80', marginLeft: 'auto' }}>✓ Valid</span>
+                          : <span style={{ fontSize: '0.65rem', color: '#f87171', marginLeft: 'auto' }}>✗ Not in CMS 2026</span>
+                        }
+                      </div>
+                      {desc
+                        ? <p style={{ fontSize: '0.78rem', color: '#94a3b8', lineHeight: 1.4 }}>{desc}</p>
+                        : <p style={{ fontSize: '0.75rem', color: '#f87171', opacity: 0.7 }}>Code not found in ICD-10-CM 2026 or AMA CPT 2024</p>
+                      }
+                    </div>
+                  )
+                })}
               </div>
             )}
           </div>

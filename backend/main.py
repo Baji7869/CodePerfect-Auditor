@@ -1,3 +1,4 @@
+from auth import register_auth_routes
 import asyncio
 import json
 import logging
@@ -41,6 +42,7 @@ def db_search(text: str, ctype: str, limit=6) -> list:
     if ctype == "CPT":
         return search_cpt_codes(text, limit)
     return search_icd10_codes(text, limit)
+from utils.knowledge_base import build_knowledge_base as init_knowledge_base
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(name)s: %(message)s')
 logger = logging.getLogger(__name__)
@@ -66,10 +68,12 @@ async def lifespan(app: FastAPI):
             except Exception:
                 pass  # Column already exists
     logger.info("✅ Database ready")
+    init_knowledge_base()
     logger.info("✅ Knowledge base ready")
     yield
 
 app = FastAPI(title="CodePerfect Auditor", lifespan=lifespan)
+register_auth_routes(app)
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
 
@@ -545,6 +549,10 @@ def run_full_audit(chart_text, human_icd10, human_cpt, case_id):
     elapsed = int(time.time() * 1000) - start_ms
     logger.info(f"✅ Complete in {elapsed}ms")
 
+    # Look up official descriptions for human-submitted codes
+    human_icd10_descs = {c: (db_lookup(c,"ICD10") or {}).get("description","") for c in human_icd10}
+    human_cpt_descs   = {c: (db_lookup(c,"CPT")   or {}).get("description","") for c in human_cpt}
+
     return AuditReport(
         case_id=case_id,
         risk_level=risk,
@@ -553,6 +561,8 @@ def run_full_audit(chart_text, human_icd10, human_cpt, case_id):
         critical_findings=[d["description"] for d in discrepancy_data if d["severity"] in ("critical", "high")],
         human_icd10_codes=human_icd10,
         human_cpt_codes=human_cpt,
+        human_icd10_descriptions=human_icd10_descs,
+        human_cpt_descriptions=human_cpt_descs,
         ai_icd10_codes=ai_icd10,
         ai_cpt_codes=ai_cpt,
         clinical_facts=clinical_facts,
@@ -698,6 +708,11 @@ async def get_report(case_id: str):
         human_icd10 = [c.code for c in codes if c.code_type == "ICD10"]
         human_cpt = [c.code for c in codes if c.code_type == "CPT"]
 
+        # Look up descriptions for human-submitted codes (for display in Code Comparison)
+        from utils.realtime_codes import get_descriptions_for_codes
+        human_icd10_descs = get_descriptions_for_codes(human_icd10, "ICD10")
+        human_cpt_descs   = get_descriptions_for_codes(human_cpt,   "CPT")
+
         clinical_facts = ClinicalFacts(**json.loads(result.clinical_facts))
         try:
             ai_icd10_raw = result.ai_icd10_codes
@@ -730,6 +745,8 @@ async def get_report(case_id: str):
             total_discrepancies=result.discrepancy_count or 0,
             critical_findings=critical,
             human_icd10_codes=human_icd10, human_cpt_codes=human_cpt,
+            human_icd10_descriptions=human_icd10_descs,
+            human_cpt_descriptions=human_cpt_descs,
             ai_icd10_codes=ai_icd10, ai_cpt_codes=ai_cpt, clinical_facts=clinical_facts,
             discrepancies=discrepancies,
             total_revenue_impact_usd=total_revenue,
