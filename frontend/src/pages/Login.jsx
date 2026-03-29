@@ -1,11 +1,15 @@
-// Login.jsx — Fixed to work with /api/auth/login endpoint
-// Replace your existing frontend/src/pages/Login.jsx
+// frontend/src/pages/Login.jsx
+// FIX: BASE now correctly uses VITE_API_URL (set in Vercel env vars)
+// When VITE_API_URL is not set locally, falls back to empty string
+// so axios calls go to same origin (works for local dev too)
 
 import axios from 'axios'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const BASE = import.meta.env.VITE_API_URL || '/api'
+// FIXED: was `|| '/api'` which broke on Vercel (no backend at /api)
+// Now falls back to '' so relative URLs work in local dev
+const BASE = import.meta.env.VITE_API_URL || ''
 
 const DEMO_USERS = [
   { username: 'admin',      password: 'Admin@2026', role: 'Administrator', color: '#7c3aed' },
@@ -27,11 +31,10 @@ export default function Login() {
     setError('')
     try {
       const { data } = await axios.post(
-        `${BASE}/auth/login`,
+        `${BASE}/api/auth/login`,
         { username: u.trim().toLowerCase(), password: p.trim() },
         { headers: { 'Content-Type': 'application/json' } }
       )
-      // Store session in localStorage
       localStorage.setItem('cp_token', data.access_token)
       localStorage.setItem('cp_user', JSON.stringify({
         username:    data.username,
@@ -64,7 +67,6 @@ export default function Login() {
     }}>
       <div style={{ width: '100%', maxWidth: 440 }}>
 
-        {/* Logo */}
         <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
           <div style={{ fontSize: '2.5rem', marginBottom: '0.5rem' }}>🏥</div>
           <h1 style={{ color: 'white', fontSize: '1.6rem', fontWeight: 800, margin: 0 }}>
@@ -75,7 +77,6 @@ export default function Login() {
           </p>
         </div>
 
-        {/* Login card */}
         <div style={{
           background: 'rgba(255,255,255,0.05)',
           border: '1px solid rgba(255,255,255,0.1)',
@@ -86,7 +87,6 @@ export default function Login() {
             Sign in to your account
           </h2>
 
-          {/* Error message */}
           {error && (
             <div style={{
               background: 'rgba(239,68,68,0.15)', border: '1px solid rgba(239,68,68,0.4)',
@@ -97,18 +97,14 @@ export default function Login() {
             </div>
           )}
 
-          {/* Username */}
           <div style={{ marginBottom: '1rem' }}>
             <label style={{
               display: 'block', color: '#94a3b8', fontSize: '0.8rem',
               fontWeight: 600, marginBottom: '0.4rem',
               textTransform: 'uppercase', letterSpacing: '0.05em',
-            }}>
-              Username
-            </label>
+            }}>Username</label>
             <input
-              type="text"
-              value={username}
+              type="text" value={username}
               onChange={e => setUsername(e.target.value)}
               onKeyDown={e => e.key === 'Enter' && handleLogin()}
               placeholder="e.g. demo, admin, coder1"
@@ -123,18 +119,14 @@ export default function Login() {
             />
           </div>
 
-          {/* Password */}
           <div style={{ marginBottom: '1.5rem' }}>
             <label style={{
               display: 'block', color: '#94a3b8', fontSize: '0.8rem',
               fontWeight: 600, marginBottom: '0.4rem',
               textTransform: 'uppercase', letterSpacing: '0.05em',
-            }}>
-              Password
-            </label>
+            }}>Password</label>
             <input
-              type="password"
-              value={password}
+              type="password" value={password}
               onChange={e => setPassword(e.target.value)}
               onKeyDown={e => e.key === 'Enter' && handleLogin()}
               placeholder="Enter password"
@@ -149,10 +141,8 @@ export default function Login() {
             />
           </div>
 
-          {/* Sign In button */}
           <button
-            onClick={() => handleLogin()}
-            disabled={loading}
+            onClick={() => handleLogin()} disabled={loading}
             style={{
               width: '100%', padding: '0.8rem',
               background: loading ? '#334155' : 'linear-gradient(135deg, #2563eb, #4f46e5)',
@@ -165,7 +155,6 @@ export default function Login() {
             {loading ? '⏳ Signing in...' : '🔐 Sign In'}
           </button>
 
-          {/* Credentials hint */}
           <div style={{
             marginTop: '1rem', padding: '0.75rem 1rem',
             background: 'rgba(255,255,255,0.04)',
@@ -177,7 +166,6 @@ export default function Login() {
           </div>
         </div>
 
-        {/* Quick login buttons */}
         <div style={{ marginTop: '1.5rem' }}>
           <p style={{
             color: '#475569', fontSize: '0.75rem', textAlign: 'center',
@@ -188,9 +176,7 @@ export default function Login() {
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.5rem' }}>
             {DEMO_USERS.map(u => (
               <button
-                key={u.username}
-                onClick={() => quickLogin(u)}
-                disabled={loading}
+                key={u.username} onClick={() => quickLogin(u)} disabled={loading}
                 style={{
                   padding: '0.6rem 0.75rem',
                   background: 'rgba(255,255,255,0.04)',
@@ -201,21 +187,14 @@ export default function Login() {
                 onMouseEnter={e => !loading && (e.currentTarget.style.background = `${u.color}15`)}
                 onMouseLeave={e => (e.currentTarget.style.background = 'rgba(255,255,255,0.04)')}
               >
-                <div style={{ color: u.color, fontSize: '0.8rem', fontWeight: 700 }}>
-                  {u.username}
-                </div>
-                <div style={{ color: '#64748b', fontSize: '0.7rem', marginTop: 2 }}>
-                  {u.role}
-                </div>
+                <div style={{ color: u.color, fontSize: '0.8rem', fontWeight: 700 }}>{u.username}</div>
+                <div style={{ color: '#64748b', fontSize: '0.7rem', marginTop: 2 }}>{u.role}</div>
               </button>
             ))}
           </div>
         </div>
 
-        <p style={{
-          color: '#334155', fontSize: '0.7rem',
-          textAlign: 'center', marginTop: '1.5rem',
-        }}>
+        <p style={{ color: '#334155', fontSize: '0.7rem', textAlign: 'center', marginTop: '1.5rem' }}>
           Virtusa Jatayu Season 5 · Team: The Boys · VR Siddhartha Engineering College
         </p>
       </div>
