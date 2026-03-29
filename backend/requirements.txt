@@ -13,3 +13,11 @@ langchain>=0.2.0
 langgraph>=0.2.0
 pypdf>=4.0.0
 python-docx>=1.1.0
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+sqlalchemy==2.0.23
+aiosqlite==0.19.0
+groq==0.4.1
+chromadb==0.5.0

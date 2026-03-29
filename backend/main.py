@@ -7,6 +7,20 @@ from contextlib import asynccontextmanager
 from datetime import datetime, date
 from typing import List, Optional
 import re
+# Add these imports at top:
+from fastapi.middleware.wsgi import WSGIMiddleware
+import os
+
+# Replace your app = FastAPI() line with:
+app = FastAPI(
+    title="CodePerfect Auditor",
+    root_path=os.getenv("VERCEL_URL", "")  # ✅ Vercel/Render fix
+)
+
+# Add health check endpoint (for Vercel):
+@app.get("/health")
+async def health():
+    return {"status": "ok", "service": "CodePerfect Auditor"}
 
 from fastapi import FastAPI, HTTPException, UploadFile, File, Form, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
