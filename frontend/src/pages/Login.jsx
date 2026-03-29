@@ -5,7 +5,7 @@ import axios from 'axios'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const BASE = import.meta.env.VITE_API_URL || ''
+const BASE = import.meta.env.VITE_API_URL || '/api'
 
 const DEMO_USERS = [
   { username: 'admin',      password: 'Admin@2026', role: 'Administrator', color: '#7c3aed' },
@@ -27,7 +27,7 @@ export default function Login() {
     setError('')
     try {
       const { data } = await axios.post(
-        `${BASE}/api/auth/login`,
+        `${BASE}/auth/login`,
         { username: u.trim().toLowerCase(), password: p.trim() },
         { headers: { 'Content-Type': 'application/json' } }
       )
