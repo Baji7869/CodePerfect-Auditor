@@ -7,6 +7,17 @@ import logging
 import uuid
 from models.schemas import AuditReport
 from services.websocket_manager import manager
+from fastapi.responses import StreamingResponse
+import io
+from reportlab.pdfgen import canvas
+# ... existing imports
+
+@app.post("/api/audit/export")
+def export_audits(ids: list[int], db: Session = Depends(get_db)):
+    audits = db.query(Audit).filter(Audit.id.in_(ids)).all()
+    return [{"id": a.id, "patient_id": a.patient_id, "human_codes": a.human_codes,
+             "ai_codes": a.ai_codes, "discrepancies": len(a.evidence), 
+             "status": a.status, "evidence": a.evidence} for a in audits]
 
 logger = logging.getLogger(__name__)
 
